@@ -1,0 +1,175 @@
+{
+    "head": {
+        "link": [],
+        "vars": ["actor", "p", "valor"]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [{
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/pradomuseum.owl#identifier"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "2218"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1628"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1628"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Valencia"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Valencia"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Ribalta, Francisco"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Ribalta, Francisco"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.cidoc-crm.org/cidoc-crm#p3_has_note"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Catal\u00E1n de origen, su formaci\u00F3n primera la hizo en el entorno de El Escorial a la vista de obras y artistas espa\u00F1oles e italianos que all\u00ED trabajaron, captando las novedades m\u00E1s significativas de su arte. Elabor\u00F3 as\u00ED un estilo ecl\u00E9ctico que llegar\u00EDa a conjugar la ret\u00F3rica de Cincinato, los atrevidos escorzos de Tibaldi o la gravedad de Bartolom\u00E9 Carducho, con el dramatismo de Navarrete y los claroscuristas juegos de luz del mejor Cambiaso, aspectos que afloran sin disimulos en su producci\u00F3n. Primeramente ejerci\u00F3 su profesi\u00F3n en Madrid, entre 1585 y 1598, donde pint\u00F3 obras religiosas y retratos, y donde cas\u00F3 y tuvo dos hijas y luego un hijo, Juan, en 1597, que con el correr de los a\u00F1os llegar\u00EDa a ser pintor notable. En 1599 pas\u00F3 a Valencia, seguramente alentado por las demandas art\u00EDsticas del patriarca arzobispo Juan de Ribera. En Valencia permaneci\u00F3 el resto de su vida, ejerciendo una intensa labor y dando a su estilo un aire cada vez m\u00E1s personal que en su madurez alcanz\u00F3 las m\u00E1s altas cotas de calidad en direcci\u00F3n al naturalismo. Al poco de llegar a Valencia qued\u00F3 viudo y ya no volver\u00EDa a casar. Entre 1603 y 1606 vivi\u00F3 en Algemes\u00ED, poblaci\u00F3n al sur de Valencia, donde realiz\u00F3 varios retablos para su iglesia, entre ellos el mayor. Desde all\u00ED fue llamado por el arzobispo Ribera para realizar en su capilla de Corpus Christi el Retablo de san Vicente Ferrer (1605) y el gran cuadro de La Cena del retablo mayor (1606). A partir de 1610, coincidiendo con la expulsi\u00F3n de los moriscos (1609) y la muerte del patriarca Ribera (1611), su arte tom\u00F3 un sesgo intimista y profundo, muy acorde con el talante m\u00E1s piadoso de la Contrarreforma, inspir\u00E1ndose en la gravedad solemne de ciertos modelos de Sebastiano del Piombo que conoci\u00F3 en la propia Valencia, los cuales supo compaginar con un lenguaje naturalista y directo para el que se mostr\u00F3 especialmente dotado. Tambi\u00E9n su coloraci\u00F3n se torn\u00F3 m\u00E1s contenida y sobria, y sus figuras perdieron en gesticulaci\u00F3n para ahondar en intensidad expresiva. Con \u00E9l trabaj\u00F3 en la segunda d\u00E9cada del siglo XVII su disc\u00EDpulo Vicente Castell\u00F3, que imitaba su estilo y lleg\u00F3 a casar con una de sus hijas, y su propio hijo Juan Ribalta que en 1615 ya firmaba obras, formando los tres un equipo art\u00EDstico muy s\u00F3lido y prol\u00EDfico en el que a veces no resulta f\u00E1cil distinguir sus individualidades. Luego, en compa\u00F1\u00EDa de Abd\u00F3n Casta\u00F1eda, este equipo ribaltiano oper\u00F3 hacia 1620 por Segorbe (Castell\u00F3n), J\u00E9rica (Castell\u00F3n) y Andilla (Valencia). Al parecer, Francisco Ribalta, sinti\u00E9ndose enfermo en 1618, habr\u00EDa quedado en Valencia, seg\u00FAn declaraci\u00F3n propia, afrontando un pleito con la parroquia de San Andr\u00E9s por negarse a aceptar el cargo de limosnero. En ese tiempo su producci\u00F3n decreci\u00F3, pero se torn\u00F3 m\u00E1s intensa y emotiva adentr\u00E1ndose en un naturalismo profundo de conmovedora fuerza seg\u00FAn revela su gran cuadro Abrazo de san Francisco al Crucificado, pintado para los capuchinos de Valencia hacia 1622. Despu\u00E9s de 1625, el equipo ribaltiano volvi\u00F3 a reunirse en Valencia con el viejo maestro para realizar el gran retablo de la cartuja de Portaceli, donde aflora la mano de Francisco Ribalta, de Juan Ribalta y de Vicente Castell\u00F3 en un conjunto de calidad notable que en algunas partes parece que qued\u00F3 sin concluir. En 1628 mor\u00EDa Francisco Ribalta y pocos meses despu\u00E9s tambi\u00E9n mor\u00EDa su hijo Juan, dejando trazadas en la pintura valenciana pautas que perdurar\u00EDan durante mucho tiempo condicionando los designios del estilo barroco. </br> (Benito Dom\u00E9nech,F. En: E.M.N.P, 2006, Tomo V, p.1857-1858)"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1565"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1565"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Solsona, L\u00E9rida"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Solsona, L\u00E9rida"
+                }
+            }
+        ]
+    }
+}

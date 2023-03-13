@@ -1,0 +1,175 @@
+{
+    "head": {
+        "link": [],
+        "vars": ["actor", "p", "valor"]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [{
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/pradomuseum.owl#identifier"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "675"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1669"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1669"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Roma"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Rome"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Cortona, Pietro da"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Cortona, Pietro da"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.cidoc-crm.org/cidoc-crm#p3_has_note"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Fue uno de los artistas decisivos en la formulaci\u00F3n del barroco italiano del siglo XVII, tanto en la arquitectura como en la pintura, trascendiendo al \u00E1mbito europeo en general. Su instrucci\u00F3n la llev\u00F3 a cabo muy precozmente en su villa natal, cercana a Florencia, con el pintor Andrea Commodi, con quien lleg\u00F3 a Roma en 1612. Despu\u00E9s de ser tambi\u00E9n alumno de Baccio Ciarpi, entr\u00F3 en contacto con los c\u00EDrculos de anticuarios y diletantes de la Ciudad Eterna, amantes de los restos antiguos de la urbe. Su estudio se centr\u00F3 en Rafael y Miguel \u00C1ngel, as\u00ED como en los Carracci y los cl\u00E1sicos venecianos. Fue en los comentados ambientes intelectuales donde lo conocieron los hermanos Sacchetti, que a partir de entonces se convirtieron en sus m\u00E1s importantes patronos y valedores, encarg\u00E1ndole trabajos de todo tipo. Que los enormemente cultos y riqu\u00EDsimos hermanos procedieran tambi\u00E9n de la Toscana, no hizo sino acercarlos m\u00E1s si cabe a quien se convirti\u00F3 en su pintor favorito. La elecci\u00F3n de otro toscano como papa, Urbano VIII Barberini, en 1623, convertir\u00EDa a Giulio Sacchetti en cardenal y a su hermano Marcello en tesorero papal. Este \u00FAltimo gozar\u00EDa de un puesto privilegiado como definidor del gusto de la corte pontificia, por lo que la promoci\u00F3n de Cortona no se hizo esperar. Su excelente genio ser\u00EDa aprovechado por el sobrino del papa y nuevo cardenal Francesco Barberini para decorar el techo del gran sal\u00F3n del palacio romano de la familia, que ser\u00EDa la obra m\u00E1s significativa e influyente de la pintura romana del siglo XVII. En el fresco del ''Triunfo de la Divina Providencia'', Cortona llev\u00F3 a cabo un despliegue espectacular de ret\u00F3rica pict\u00F3rica al servicio de la exaltaci\u00F3n de la familia papal. As\u00ED se difuminaban las barreras entre pintura, escultura y arquitectura, a mayor gloria de la hagiograf\u00EDa Barberini. La composici\u00F3n, que mostraba un complejo programa iconogr\u00E1fico, se convirti\u00F3 en la clave de la po\u00E9tica barroca posterior, creando la v\u00EDa m\u00E1s exaltada que se opondr\u00EDa dial\u00E9cticamente al clasicismo severo de artistas como Andrea Sacchi o Nicolas Poussin. Cortona fue requerido por los sucesivos pont\u00EDfices, as\u00ED como por la corte ducal de Toscana, donde sus decoraciones del Palacio Pitti gozaron igualmente de un \u00E9xito arrollador. Es necesario tambi\u00E9n referirse a su trabajo arquitect\u00F3nico, pues su labor en obras como la iglesia de Santa Mar\u00EDa de la Paz de Roma, sirvi\u00F3 para iniciar el motivo de la fachada curva que tan f\u00E9rtilmente ser\u00EDa utilizado seguidamente por Bernini y Borromini, creando un aut\u00E9ntico escenario teatral entre plaza, iglesia y portada. En el Museo del Prado se custodian unos interesantes dibujos del artista toscano, la mayor\u00EDa procedentes del legado Fern\u00E1ndez Dur\u00E1n (1930). Uno de ellos es especialmente significativo por tratarse de una ''Alegor\u00EDa de la Casa Barberini'', en el que se puede distinguir su palacio al fondo, y que sirvi\u00F3 de base a una serie de ilustraciones grabadas, publicadas en 1633. Tambi\u00E9n posee la pinacoteca madrile\u00F1a una singular pintura sobre piedra venturina de la \u00FAltima \u00E9poca de Cortona: una peque\u00F1a y exquisita ''Natividad'' regalada por el cardenal Francesco Barberini al rey Felipe IV en 1659, adornada lujosamente para la ocasi\u00F3n con un rico marco de plata y lapisl\u00E1zuli. Fue obra muy estimada en la corte espa\u00F1ola, coloc\u00E1ndose como cuadro de devoci\u00F3n en el oratorio del cuarto bajo del Alc\u00E1zar de Madrid (E.M.N.P., Madrid, 2006, tomo III, pp. 855-857)."
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1596"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1596"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Cortona, Toscana"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Cortona, Tuscany"
+                }
+            }
+        ]
+    }
+}

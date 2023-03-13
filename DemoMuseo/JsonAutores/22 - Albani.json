@@ -1,0 +1,188 @@
+{
+    "head": {
+        "link": [],
+        "vars": ["actor", "p", "valor"]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [{
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/pradomuseum.owl#identifier"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "22"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1660"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1660"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Bologna"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Bolonia"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Albani, Francesco"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Albani, Francesco"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.cidoc-crm.org/cidoc-crm#p3_has_note"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Estudi\u00F3 en Bolonia con Dionisio Fiamingo Calvaert para pasar posteriormente al taller de los Carracci en 1597. Se estableci\u00F3 en Roma en 1601 junto a Guido Reni, siendo seguidamente reclamado por An\u00EDbal Carracci para trabajar en la iglesia de Santiago de los Espa\u00F1oles y en los lunetos Aldobrandini. Pronto desarroll\u00F3 un tipo de pintura centrada en la inspiraci\u00F3n de la poes\u00EDa del mundo cl\u00E1sico, utilizando el paisaje mitol\u00F3gico como medio para plasmar todo un ideal de belleza refinada. Fund\u00EDa as\u00ED su aprendizaje junto a los Carracci con la atm\u00F3sfera derivada de las bacanales de Tiziano, que desde su llegada a Roma en 1598 se hab\u00EDan convertido en referencia inexcusable para los pintores del siglo XVII que trabajaban en la ciudad. Son dos las obras de Albani conservadas en el Museo del Prado: ''El tocador de Venus'' y ''El juicio de Paris''. Ambas se localizaban en 1701 en el Palacio del Buen Retiro de Madrid y seguramente formaban pendant, pues las dos tienen el mismo tama\u00F1o y una tem\u00E1tica similar. En 1792, por tratarse de obras de desnudo, se decidi\u00F3 su traslado a la Academia de San Fernando, llegando definitivamente al Prado en 1827. Se trata, en ambos casos, de motivos de mitolog\u00EDa cl\u00E1sica envueltos en sendos paisajes ideales. Obras, por lo tanto, muy caracter\u00EDsticas de lo mejor de la producci\u00F3n de Albani, cuya perfecci\u00F3n explica la alta demanda de sus creaciones por parte de los coleccionistas contempor\u00E1neos. Formar\u00EDan parte de la espl\u00E9ndida colecci\u00F3n que lleg\u00F3 a conformarse en el Buen Retiro, donde la arquitectura se cubri\u00F3 con las m\u00E1s excelentes pinturas de artistas de la \u00E9poca (Garc\u00EDa L\u00F3pez, D., en E.M.N.P., 2006, T. II, p\u00E1gs. 340-341).</br></br>Su retrato realizado por Andrea Sacchi corresponde a la obra P00326 del Museo del Prado."
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p65_E36_shows_visual_item"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "imagenes/Documentos/imgsem/c6/c60c/c60ca851-46c4-44b9-b7da-be1ffbdca88c/55a5fd9a-90d5-4746-831b-b21d351b22f6.jpg"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1578"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1578"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Bologna"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Bolonia"
+                }
+            }
+        ]
+    }
+}

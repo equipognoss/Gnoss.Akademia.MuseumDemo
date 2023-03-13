@@ -1,0 +1,189 @@
+{
+    "head": {
+        "link": [],
+        "vars": ["actor", "p", "valor"]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [{
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/pradomuseum.owl#identifier"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1171"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1614"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1614"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Toledo"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Toledo"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "El Greco"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "El Greco"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.cidoc-crm.org/cidoc-crm#p3_has_note"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "This Spanish painter of Greek origin was born in the capital city of the Isle of Crete, which then belonged to the Republic of Venice. His family was Greek, but probably Catholic rather than Orthodox, and its members collaborated with the colonial powers. He was trained as an Icon painter in the late-Byzantine tradition, but contact with Italian engravings allowed him to absorb and partially employ some of that country\u2019s Renaissance formulas. He was already a master painter by 1563, and in 1566 he requested permission to have an icon of the Passion appraised so that he could sell it at a lottery. In 1567 he moved to Venice, where he resided until 1570 and, while he did not actually apprentice to Titian, he was able to learn that artist\u2019s style from outside his studio. In that city, he gradually mastered Western art and the Renaissance Venetian approach to color, perspective, anatomy and painting with oils, although he never completely abandoned his traditional practices. After a study trip through Italy (Padua, Vicenza, Verona, Parma, Florence), he settled in Rome, where he remained until 1576-1577. As part of the intellectual circle around Cardinal Alejandro Farnesio, in whose palace attic he initially lodged, he was in close contact with a number of Spanish clergymen and literati. In 1572, he was expulsed from the cardinal\u2019s service and joined the Roman Guild\u2014the Academy of San Lucas\u2014which allowed him to open his own workshop. From then on, he concentrated mainly on portraits and small religious works for private clients, adopting a much more Italianate and advanced style. He must not have been as successful as expected, however, as he decided to emigrate. And, while we do not know his exact reasons, it has been hypothesized that he moved to Spain with the intention of working for King Philip II, as the monastery of El Escorial was being decorated in the spring of 1577 and the artist was already there at that time. He later moved to Toledo, where the cathedral and the monastery of Santo Domingo el Antiguo commissioned him to paint the first canvases documented here. For the former, he painted The Disrobing of Christ; and for the latter, three altarpieces, including two canvases now at the Museo del Prado. He arrived in Spain with a young Italian assistant, Francesco Prevoste, who remained with him until his death. The artist\u2019s son, Jorge Manuel Theotoc\u00F3puli (the Italianized form of his surname employed in Spain), was born in 1578 as the result of a brief relationship with Jer\u00F3nima de las Cuevas, a woman who came from Toledo\u2019s community of craftspeople. Domenikos Theotokpoulos, \u201CEl Greco\u201D, remained in Toledo for the rest of his life, travelling very little, and always for work. His life was uneventful, except for nine documented lawsuits brought by him or by some of his clients. Some of these had to do with the value and price assigned to his works by assessors; others were for technical or iconographic reasons and involved works from both the beginning and end of his career, including The Disrobing of Christ, and a Martyrdom of Saint Maurice for one of the altars at the basilica. El Greco expanded his workshop to include the production of not only canvases but whole altarpieces for monasteries, parishes and chapels, including successive projects for the parish of Talavera la Vieja (Caceres), the chapel of San Jos\u00E9 and the Chapel of the Collegiate Church of San Bernardino in Toledo, the Collegiate Church of la Encarnaci\u00F3n or of do\u00F1a Mar\u00EDa de Arag\u00F3n in Madrid, the church at the Hospital of Nuestra Se\u00F1ora de la Caridad in Illescas, the Oballe Chapel at the parish of San Vicente M\u00E1rtir, and those at the Hospital of San Juan Bautista or Tavera, also in Toledo, which was unfinished when he died. He also contracted projects, sometimes with his son, that he never managed to carry out, including the royal monastery of Nuestra Se\u00F1ora de Guadalupe (Caceres). In some of these latter works, El Greco favored innovatively designed and plural artistic combinations that included sculpture and altarpiece architecture along with his paintings and other canvases set into the walls or domes. These complex formal and visual systems must have produced fascinating effects, although today it is difficult to find any of them in their original state. So, in fact, he was designing sculptures and architecture, and he took a particular interest in the latter throughout his career in Spain. While he never actually designed a building, he was frankly opposed to the reigning local postulates determined in Madrid by royal architect Juan de Herrera and applied in Toledo by the latter\u2019s acolytes. In a refined atmosphere where he probably spent more that he was earning, and surrounded by Toledo\u2019s academic intellectuals and a small circle of Italianized and Hellenistic friends, El Greco died intestate on April 7, 1614. He left a body of work praised by culteranist poets Luis de G\u00F3ngora and Friar Hortensio F\u00E9lix Paravicino and collected by art lovers. Considered a singular and paradoxical \u201Cextravagant\u201D for his theories and a highly personal and immediately identifiable style, he was greatly admired by his colleagues for his efforts to dignify the painter\u2019s profession. He was, however, criticized by the most intransigent counter-Reformist theorists for his formal and iconographic license in matters of tone, composition and detail. They also rejected his disproportionate interest in superfluous formalist aspects of his work and the character of his religious images, which they considered inappropriate for what was then their most important function: encouraging the viewer to pray, as the Hieronymite historian from El Escorial, Friar Jos\u00E9 de Sig\u00EBnza, pointed out. Repudiated by the eighteenth-century Enlightenment, he was rediscovered by the Romantics and by 19th-century French painters who interpreted him according to their own interests. That, too, was the period when Spain began to consider him a Spanish artist, rather than identifying him as a Greek disciple of Titian. Widespread interest in Vel\u00E1zquez\u2019s painting also drew attention to this artist from Candia, who can be considered the only truly original forerunner to the Sevillian master in the history of Spanish painting. For the Generation of \u201998, he embodied Siglo-de-Oro Spain\u2019s religious spirit, closely related to that epoch\u2019s religious zenith in the mystical poetry of Santa Teresa de Jes\u00FAs and San Juan de la Cruz. Early 20th-century painters saw him as a forerunner to their expressionist, subjectivist and tormented concerns, and the freedom with which they rejected a servile and mechanical imitation of reality. Today, the interpretation of El Greco\u2019s painting is once again undergoing renewal and debate. His ties to the spirituality of the Barefoot Carmelites and his identification with Spanish values are being questioned in light of his artistic and cultural Italianism, the underlying Greek stratum, and the philosophical character of his art. This questioning focuses on his interest in its formal and beautifying function as a means of knowing Nature. Rather than a mystical and possessed artist, he is now seen as an aesthetic, intellectual and philosophical painter free of the concerns of his devout and erudite contemporaries. He may have collaborated willingly with, and insightfully interpreted, the counter-reformation Catholic interests that held sway in Spain under Philip II and Philip III, but he may also have ignored their concerns, focusing exclusively, and against the grain, on the development of a personal, formalist style that reflected theoretical postulates on art visible in the notes he jotted in books from his impressive library, including Giorgio Vasari\u2019s Lives or Vitruvio\u2019s Architettura. These varied possibilities constitute a logical response to an artist already considered singular and paradoxical in his time, and they bear witness to the interest his work has generated among critics and historians of art and culture, as well as in any viewer who approaches his work and experiences the attractive if disconcerting effects of his painting. The Museo del Prado also has canvases from the Altarpiece of the Collegiate Church of the Augustine Nuns of Do\u00F1a Mar\u00EDa de Arag\u00F3n (1596-1600), the Annunciation, the Baptism of Christ and the Crucifixion, as well as two depictions of The Resurrection of Christ and the Pentecost, whose assignment to this altarpiece is very disputable. His later Adoration of the Shepherds (1612) comes from his Funerary Altarpiece of Santo Domingo el Antiguo. Other works, besides some devotional images of unidentifiable provenance, include four paintings from the Almadrones Apostolate (Guadalajara), which is thought to have been initiated by El Greco and concluded after his death by his son, Jorge Manual and members of his Toledo workshop. These are thus very late and restored works (Mar\u00EDas, F. in E.M.N.P., Madrid, 2006, vol. IV, pp. 1228-1232)."
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.cidoc-crm.org/cidoc-crm#p3_has_note"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Nacido en la capital de la isla de Creta, territorio de la Rep\u00FAblica de Venecia, en el seno de una familia griega, pero probablemente de religi\u00F3n cat\u00F3lica m\u00E1s que ortodoxa, y cuyos miembros trabajaban como colaboradores del poder colonial, se form\u00F3 como pintor de iconos siguiendo los dictados de la tradici\u00F3n art\u00EDstica tardobizantina, y asimilando parcialmente gracias al uso de grabados italianos algunas de las f\u00F3rmulas del renacimiento italiano, que incorpor\u00F3 de manera aislada. En 1563 era ya maestro de pintura y en 1566 solicitaba permiso para que se le tasara un icono de la Pasi\u00F3n, para poder venderlo en loter\u00EDa; en 1567 pas\u00F3 a Venecia, donde residi\u00F3 hasta 1570 y donde, m\u00E1s que ser disc\u00EDpulo de Tiziano, pudo aprender su estilo desde fuera de su taller; en la ciudad de la laguna se afianz\u00F3 lentamente en el dominio del arte occidental del renacimiento v\u00E9neto, en su empleo del color, la perspectiva, la anatom\u00EDa y la t\u00E9cnica del \u00F3leo, aunque no abandonara por completo sus usos tradicionales. Tras un viaje de estudios por Italia (Padua, Vicenza, Verona, Parma, Florencia), se instal\u00F3 en Roma, donde permaneci\u00F3 hasta 1576-1577, en contacto con el c\u00EDrculo intelectual del cardenal Alejandro Farnesio, que frecuentaban diversos religiosos y hombres de letras espa\u00F1oles, e inicialmente estuvo alojado en el \u00E1tico de su palacio. En 1572 fue expulsado de la servidumbre del cardenal e ingres\u00F3, con derecho a abrir su propio taller, en la asociaci\u00F3n gremial romana, la Academia de San Lucas, trabajando preferentemente desde entonces como retratista y en peque\u00F1as obras religiosas para clientes particulares, en un estilo mucho m\u00E1s italianizado y avanzado; no obstante, no debi\u00F3 de conseguir \u00E9xitos de envergadura, por lo que decidir\u00EDa emigrar. Desconocemos las razones, es hip\u00F3tesis su inter\u00E9s por entrar al servicio de Felipe II, con ocasi\u00F3n de la obra decorativa del monasterio de El Escorial de su viaje a Espa\u00F1a, donde se encontraba ya en la primavera de 1577, en Madrid y luego en Toledo, donde contratar\u00EDa con la catedral y el monasterio de Santo Domingo el Antiguo los primeros lienzos aqu\u00ED documentados, ''el Expolio''  para aqu\u00E9lla y tres retablos para \u00E9ste, de los que dos lienzos se conservan en el Prado. Consigo trajo, y con \u00E9l vivi\u00F3 hasta su muerte, a un joven ayudante italiano, Francisco Prevoste; en 1578 naci\u00F3 su hijo Jorge Manuel Theotoc\u00F3puli (la forma italianizada de su apellido que usaron en Espa\u00F1a), fruto de unas relaciones ef\u00EDmeras con Jer\u00F3nima de las Cuevas, mujer que proced\u00EDa del medio artesanal toledano. Desde esta fecha, Dominico ''El Griego'' reside en Toledo, de donde saldr\u00E1 en escasas ocasiones, siempre por motivos laborales. Su vida transcurre sin pasar por episodios se\u00F1alados si descontamos sus nueve pleitos documentados, incoados por \u00E9l mismo o por algunos de sus clientes, ya fuera a causa del valor y precio por el que se tasaban sus lienzos o por las quejas, de orden t\u00E9cnico o por razones iconogr\u00E1ficas, que levantaron algunos de ellos, como el propio ''Expolio'' o ''la Virgen de la Caridad de Illescas'' (Toledo), al inicio y final de su carrera. Tras ver rechazado en 1584, por Felipe II y la congregaci\u00F3n jer\u00F3nima escurialense, su encargo regio del ''Martirio de San Mauricio'', para uno de los altares de la bas\u00EDlica, El Greco ampli\u00F3 su taller, iniciando la producci\u00F3n de retablos, no solo de lienzos, para conventos y parroquias de la ciudad y del arzobispado toledano, as\u00ED como de cuadros de dimensiones reducidas para una clientela de car\u00E1cter privado m\u00E1s que institucional. Naturalmente, sus principales trabajos consistieron en la ejecuci\u00F3n global de retablos para monasterios, parroquias y capillas, sucedi\u00E9ndose los de la parroquia de Talavera la Vieja (C\u00E1ceres), la capilla de San Jos\u00E9 y la capilla del Colegio de San Bernardino de Toledo, el Colegio de la Encarnaci\u00F3n o de do\u00F1a Mar\u00EDa de Arag\u00F3n de Madrid, la iglesia del Hospital de Nuestra Se\u00F1ora de la Caridad de Illescas, la capilla Oballe de la parroquia de San Vicente M\u00E1rtir o los del Hospital de San Juan Bautista o Tavera, tambi\u00E9n de Toledo, que dej\u00F3 sin acabar a la hora de su muerte. Contrat\u00F3, a veces con su hijo, otros muchos que nunca lleg\u00F3 a ejecutar, como el del monasterio regio de Nuestra Se\u00F1ora de Guadalupe (C\u00E1ceres). En algunas de estas \u00FAltimas obras, El Greco tendi\u00F3 a proyectar de forma innovadora conjuntos art\u00EDsticos plurales, en los que se combinaban las esculturas, la arquitectura de los retablos con sus lienzos y otras telas empotradas en muros o b\u00F3vedas, concibi\u00E9ndolos como complejos sistemas formales y visuales que debieron producir, hoy es dif\u00EDcil encontrar alguno en su estado original, efectos fascinantes. Proyect\u00F3, por lo tanto, obras de escultura y de arquitectura, disciplina \u00E9sta que le interes\u00F3 vivamente a lo largo de su carrera espa\u00F1ola y en la que, a pesar de no dise\u00F1ar ning\u00FAn edificio, adopt\u00F3 una postura de franca oposici\u00F3n a los postulados locales contempor\u00E1neos, marcados desde la corte por el arquitecto real Juan de Herrera y, en Toledo, por sus fieles seguidores. En un ambiente refinado, probablemente gastando m\u00E1s de lo que ingresaba por su trabajo, y rodeado por la intelectualidad acad\u00E9mica toledana y un breve grupo de amigos italianizados y helenistas, El Greco muri\u00F3 sin dictar testamento el 7 de abril de 1614, dejando una obra elogiada por los poetas culteranos Luis de G\u00F3ngora y fray Hortensio F\u00E9lix Paravicino, y coleccionada por los entendidos en el arte de la pintura; tambi\u00E9n disfrut\u00F3 en vida y dej\u00F3 fama de ''extravagante'', singular y parad\u00F3jico por su pensamiento teor\u00E9tico y su estilo personal\u00EDsimo, f\u00E1cilmente reconocible como suyo, mitificado por sus colegas a causa de sus tentativas por la dignificaci\u00F3n social de la profesi\u00F3n pict\u00F3rica, criticado tambi\u00E9n por los m\u00E1s intransigentes te\u00F3ricos contrarreformistas por sus licencias formales e iconogr\u00E1ficas, de tono, conjunto o detalle, quienes rechazaban su desmedido inter\u00E9s por los aspectos superfluos, formalistas, de sus obras y el car\u00E1cter inapropiado de sus realizaciones religiosas desde el punto de vista funcional m\u00E1s importante para la \u00E9poca, que incentivaran en el espectador los deseos de rezar, como se\u00F1alara en 1605 el historiador jer\u00F3nimo de El Escorial fray Jos\u00E9 de Sig\u00FCenza. Su arte, repudiado por la Ilustraci\u00F3n dieciochesca, fue redescubierto por los rom\u00E1nticos y los pintores franceses del siglo XIX, que produjeron una interpretaci\u00F3n concordante con sus propios intereses, inici\u00E1ndose por parte espa\u00F1ola la apropiaci\u00F3n espa\u00F1olista del hasta entonces tenido por un griego disc\u00EDpulo de Tiziano; tambi\u00E9n el inter\u00E9s general por la pintura de Vel\u00E1zquez hizo volver los ojos hacia el candiota, el \u00FAnico precedente del sevillano realmente original que se vio en la historia de la pintura espa\u00F1ola; la Generaci\u00F3n del 98 lo entendi\u00F3 como representaci\u00F3n del esp\u00EDritu religioso espa\u00F1ol del Siglo de Oro, en relaci\u00F3n estrecha con los m\u00E1s altos hitos de la cultura religiosa, en su vertiente literaria, de la \u00E9poca: la m\u00EDstica de Santa Teresa de Jes\u00FAs y San Juan de la Cruz; las corrientes pict\u00F3ricas de comienzos del siglo XX lo vieron como un precedente de sus preocupaciones expresionistas, subjetivistas y atormentadas, libres y opuestas a la imitaci\u00F3n servil y mec\u00E1nica de la realidad. En la actualidad, la interpretaci\u00F3n de la pintura de El Greco se encuentra en pleno proceso de renovaci\u00F3n y debate; han sido puestas en entredicho su vinculaci\u00F3n con la espiritualidad de los carmelitas descalzos y su identificaci\u00F3n con los valores hispanos, al subrayarse su italianismo art\u00EDstico y cultural, sobre un estrato griego, y el car\u00E1cter filos\u00F3fico de su arte, centr\u00E1ndose en su inter\u00E9s por la funci\u00F3n formal y embellecedora del mismo como medio de conocimiento de la naturaleza. Frente al artista m\u00EDstico y arrebatado, ha surgido la figura del pintor esteticista e intelectual, fil\u00F3sofo, que se tuvo por ''genio'', ajeno a las preocupaciones de los devotos y eruditos contempor\u00E1neos, bien al servicio voluntario de los intereses de la Contrarreforma cat\u00F3lica vigente en la Espa\u00F1a de Felipe II y Felipe III, de la que se habr\u00EDa convertido en perspicaz int\u00E9rprete, o bien ajeno a este tipo de problemas y, por tanto, dedicado en exclusiva y a contracorriente al desarrollo de una pintura personal y formalista, de acuerdo con sus propios postulados te\u00F3ricos relativos al arte, que dej\u00F3 en forma de anotaciones personales en libros de su rica biblioteca, como en los m\u00E1rgenes de las ''Vidas'', de Giorgio Vasari y de ''Architettura'',  de Vitruvio. Este abanico de posibilidades constituye una respuesta l\u00F3gica a este personaje, que ya en su tiempo era considerado como singular y parad\u00F3jico, y demuestra el inter\u00E9s que sus realizaciones han despertado entre cr\u00EDticos e historiadores del arte y la cultura, como en cualquier espectador que se aproxime a sus obras y experimente la atracci\u00F3n y el desconcertante efecto de sus pinturas. El Prado conserva tambi\u00E9n lienzos del ''Retablo del colegio de los agustinos de Do\u00F1a Mar\u00EDa de Arag\u00F3n'' (1596-1600), como ''La Anunciaci\u00F3n'', ''El Bautismo de Cristo'' y ''La Crucifixi\u00F3n'', as\u00ED como dos ''La Resurrecci\u00F3n de Cristo'' y ''Pentecost\u00E9s'' cuya adscripci\u00F3n a este retablo es muy discutible. M\u00E1s tard\u00EDo es ''Adoraci\u00F3n de los pastores'' (1612), procedente de su ''Retablo funerario de Santo Domingo el Antiguo''. Otras obras, al lado de algunas im\u00E1genes devocionales de procedencia incontrolable, son los cuatro del ''Apostolado de Almadrones'' (Guadalajara), que se ha supuesto iniciado por Domenicos y concluido, tras su muerte, por su hijo Jorge Manuel y el taller de Toledo, obras, por lo tanto, muy tard\u00EDas y restauradas (Mar\u00EDas, F. en  E.M.N.P., Madrid, 2006, tomo IV, pp. 1228-1232)."
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1541"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1541"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Candia, Crete"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Cand\u00EDa, Creta"
+                }
+            }
+        ]
+    }
+}

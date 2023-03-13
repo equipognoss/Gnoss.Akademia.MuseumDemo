@@ -1,0 +1,189 @@
+{
+    "head": {
+        "link": [],
+        "vars": ["actor", "p", "valor"]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [{
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/pradomuseum.owl#identifier"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "2397"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1627"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1627"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Granada"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Granada"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "S\u00E1nchez Cot\u00E1n, Juan"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "S\u00E1nchez Cot\u00E1n, Juan"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.cidoc-crm.org/cidoc-crm#p3_has_note"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Primer pintor espa\u00F1ol de quien conocemos bodegones, en su mayor\u00EDa pintados antes de 1603. Bautizado en la iglesia parroquial de su localidad natal el 25 de junio de 1560, vivi\u00F3 y trabaj\u00F3 en Toledo. Es posible que fuera disc\u00EDpulo de Blas de Prado, pintor que goza de la distinci\u00F3n de ser el primer bodegonista espa\u00F1ol documentado, pero del que no se han identificado obras de ese g\u00E9nero. Parte de la familia de S\u00E1nchez Cot\u00E1n residi\u00F3 en Orgaz (Toledo); en Alc\u00E1zar de San Juan (Ciudad Real) vivieron su hermano Alonso S\u00E1nchez Cot\u00E1n, escultor, y los dos hijos artistas de \u00E9ste, Alonso, tambi\u00E9n escultor y ensamblador, y Dami\u00E1n, dorador y estofador. El suceso central en la vida de S\u00E1nchez Cot\u00E1n fue su decisi\u00F3n, a la edad de cuarenta y tres a\u00F1os, de abandonar Toledo para hacerse cartujo. En septiembre de 1604 profes\u00F3 como hermano lego en la cartuja de Granada. En 1610 resid\u00EDa en la cartuja de El Paular (Segovia), y en enero de este a\u00F1o se comprometi\u00F3, con su sobrino Alonso S\u00E1nchez Cot\u00E1n, a pintar un retablo para la iglesia parroquial de San Pablo de los Montes (Toledo). Vuelto al convento granadino, entre 1615 y 1617 pint\u00F3 para el mismo una serie de episodios de la historia de la orden cartujana (cartuja de Granada); se afirma que Vicente Carducho los estudi\u00F3 en una visita a Granada en 1626-1627 antes de acometer su propia serie para El Paular. La orden no solo valor\u00F3 el talento de S\u00E1nchez Cot\u00E1n para la pintura de temas religiosos, sino tambi\u00E9n sus aptitudes pr\u00E1cticas, con las que colabor\u00F3 en el mantenimiento del convento. Durante esta etapa de su vida su fe religiosa parece haberse intensificado; sus primeros bi\u00F3grafos lo rodearon de un halo de santidad, y seg\u00FAn una leyenda se le apareci\u00F3 la Virgen Mar\u00EDa para que la retratase. Muri\u00F3 en la cartuja de Granada el 8 de septiembre de 1627, fiesta de la Natividad de la Virgen y aniversario de su profesi\u00F3n en la orden. Se desconocen los motivos que llevaron a S\u00E1nchez Cot\u00E1n a ingresar en una de las \u00F3rdenes m\u00E1s estrictas. Su cambio de estado fue la raz\u00F3n de que en agosto de 1603 hiciera testamento e inventario de sus bienes, documentos ins\u00F3litamente detallados que arrojan alguna luz sobre su carrera art\u00EDstica y su estilo de vida. Esas fuentes apenas reflejan las convicciones religiosas latentes en el artista; solo sugieren una piedad convencional. En el inventario se citan un h\u00E1bito franciscano y un rosario. Ten\u00EDa pocos libros, pero uno de ellos era la segunda parte de Flos sanctorum de Alonso de Villegas (Toledo, 1584), una lectura piadosa popular y obra de consulta esencial para los pintores; incluso es posible que S\u00E1nchez Cot\u00E1n conociera al autor. La situaci\u00F3n econ\u00F3mica del artista parece haber sido desahogada; en su testamento no se mencionan deudas, prest\u00F3 dinero a menudo y dej\u00F3 instrucciones detalladas para el reparto de su herencia entre sus familiares. El hecho de que uno de sus deudores fuera El Greco demuestra que se conocieron. Todo indica que S\u00E1nchez Cot\u00E1n vivi\u00F3 en Toledo con comodidades; su casa estaba bien amueblada, con guadamec\u00EDes, un tapiz franc\u00E9s de figuras y escudos de armas en las paredes. Tambi\u00E9n posey\u00F3 instrumentos musicales, un arpa y una vihuela, y un libro de m\u00FAsica; esta afici\u00F3n hace pensar que fuera un hombre cultivado. Un autorretrato que hab\u00EDa comenzado antes de salir de Toledo es hoy desconocido. El inventario de 1603 cita dos pinturas mitol\u00F3gicas de tema er\u00F3tico, un Juicio de Paris y una copia de El rapto de Europa, de Tizia\u00ADno (Isabella Stewart Gardner Museum, Boston), que acaso fueran de su mano. S\u00E1nchez Cot\u00E1n disfrut\u00F3 de una carrera art\u00EDstica convencional mientras vivi\u00F3 en Toledo. Acept\u00F3 encargos de pinturas religiosas para iglesias y tambi\u00E9n otros de menor importancia, por ejemplo pintar las armas del arzobispo de Toledo en casa de un zapatero. Sorprende que en la documentaci\u00F3n de su carrera toledana no haya menci\u00F3n de disc\u00EDpulos ni ayudantes. Su inventario alude a retratos y copias de pinturas venecianas para coleccionistas particulares, as\u00ED como paisajes. De unas sesenta pinturas rese\u00F1adas en ese documento, la mitad eran de asunto religioso, once retratos y solo nueve bodegones. A juzgar por eso, las pinturas devotas de caballete ser\u00EDan una producci\u00F3n b\u00E1sica del artista, generalmente im\u00E1genes piadosas de la Virgen y santos m\u00E1s que escenas narrativas. Las que realiz\u00F3 en Toledo presentan un estilo de figuras plenamente formado, refinado y dulce, derivado de los pintores de la escuela de El Escorial, que se mantuvo virtualmente inalterado a lo largo de su carrera. No cabe duda, sin embargo, de que la vertiente realmente notable del arte de S\u00E1nchez Cot\u00E1n, seg\u00FAn se reconoci\u00F3 ya en el siglo XVII, fueron sus bodegones (Cherry, P. en: E.M.N.P., 2006, tomo VI, pp. 1976-1978)."
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.cidoc-crm.org/cidoc-crm#p3_has_note"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "The earliest Spanish painter with extant still lifes, most of which were painted before 1603. Baptized in his hometown\u2019s parish church on June 25, 1560, he lived and worked in Toledo. He may have been a disciple of Blas de Prado, who was the first documented Spanish still-life painter, although none of his works in that genre have been identified. Part of S\u00E1nchez Cot\u00E1n\u2019s family lived in Orgaz (Toledo), while his brother, the sculptor Alonso Sanchez Cot\u00E1n, lived in Alc\u00E1zar de San Juan (Ciudad Real) with his two sons: Alonso, a sculptor and joiner, and Dami\u00E1n, a gilder and specialist in ''estofado''. The turning point in S\u00E1nchez Cot\u00E1n\u2019s life came at the age of forty-three, when he decided to leave Toledo and become a Carthusian monk. In September 1604, he took his vows as a lay brother at the charterhouse in Granada and in 1610 he resided at the charterhouse in El Paular (Segovia), where he and his nephew, Alonso S\u00E1nchez Cot\u00E1n, painted an altarpiece for the parish church of San Pablo de los Montes (Toledo). Returning to the monastery in Granada, he painted a series of episodes from the history of the Carthusian order between 1615 and 1617 which remain at that charterhouse. Vicente Carducho is said to have studied them on a visit to Granada in 1626-1627 before painting his own series at El Paular. The Carthusian order not only valued S\u00E1nchez Cot\u00E1n\u2019s talent for religious painting, but also his practical aptitudes, engaging him in the convent\u2019s maintenance. During that period of his life, his religious faith seems to have deepened, and his earliest biographers portray him as practically a saint. Legend has it that the Virgin Mary appeared to him so that he could paint her portrait. He died in the Granada charterhouse on September 8, 1627\u2014the feast of the Virgin and the anniversary of his vows. S\u00E1nchez Cot\u00E1n\u2019s reason for joining one of the strictest religious orders is unknown, but as a result, in 1603, he wrote his will and carried out an inventory of his property. These uncommonly detailed documents shed at least some light on his artistic career and his lifestyle. They barely reflect his underlying religious convictions, suggesting only a conventional piety, but they do mention a Franciscan habit and a rosary. He had few books, but one was the second part of Alonso de Villegas\u2019s ''Flos sanctorum'' (Toledo, 1548), a popular pious text and an essential reference for painters. In fact, S\u00E1nchez Cot\u00E1n may even have known its author. He seems to have been quite well off, as his will makes no mention of debts, but he lent money to others quite frequently, and the same document includes detailed instructions about the distribution of his properties among his heirs. The fact that one of his debtors was El Greco indicates that they knew each other. It therefore seems that S\u00E1nchez Cot\u00E1n lived comfortably in Toledo. His house was well furnished, with ''guadamec\u00EDes'', a French tapestry with figures, and coats of arms on the walls. He also had musical instruments\u2014a harp and a vihuela\u2014and a book of music, which suggests that he was a cultivated individual. A self-portrait that he had begun to paint before leaving Toledo is now lost. This 1603 inventory lists two mythological paintings with erotic subjects: a ''Judgment of Paris'' and a copy of Titian\u2019s ''Rape of Europe'' (Isabella Stewart Gardner Museum, Boston), which may have been by his own hand. S\u00E1nchez Cot\u00E1n enjoyed a conventional artistic career in Toledo. He accepted commissions for religious paintings for churches and also others of lesser significance, such as painting the coat of arms of the Archbishop of Toledo at a shoemaker\u2019s house. Surprisingly, there is no mention of disciples or assistants in documentation of his career in Toledo. His inventory alludes to portraits and copies of Venetian paintings for private collectors, as well as landscapes. Of the sixty-odd paintings mentioned in that document, half were religious, eleven were portraits and only nine were still lifes. This suggests that religious easel paintings were his staple\u2014generally pious images of the Virgin and saints, rather than narrative scenes. The ones he made in Toledo are characterized by fully formed, refined and soft figures of the sort visible in works from the El Escorial school, and they remained essentially unchanged throughout his career. Unquestionably, however, his most remarkable works were his still lifes, and this was already recognized in the 17th century (Cherry, P. in: E.M.N.P., Madrid, 2006, vol. VI, pp. 1976-1978)."
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1560"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1560"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Orgaz, Toledo"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Orgaz, Toledo"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,145 @@
+@using Pma_autorOntology;
+@using GnossBase;
+@model ResourceViewModel
+@{
+	ResourceModel FichaDocumento = Model.Resource;
+	CommunityModel Comunidad = Html.GetComunidad();
+	UserIdentityModel IdentidadActual = Html.GetIdentidadActual();
+	Html.AddBodyClass(" E39_ActorModel ");
+	if (FichaDocumento.ItemLinkedFotoVersion != 0 && !string.IsNullOrEmpty(FichaDocumento.ItemLinked.ToString()) && FichaDocumento.ItemLinked != Guid.Empty)
+	{
+	string urlPersonalizacion = $"{Html.GetBaseUrlContent()}/{Es.Riam.Util.UtilArchivos.ContentOntologias}/Archivos/{FichaDocumento.ItemLinked.ToString().Substring(0, 3)}";
+	Html.GetListaJS().Add($"{urlPersonalizacion}/{FichaDocumento.ItemLinked.ToString()}.js?v= {FichaDocumento.ItemLinkedFotoVersion}");
+	Html.GetListaCSS().Add($"{urlPersonalizacion}/{FichaDocumento.ItemLinked.ToString()}.css?v= {FichaDocumento.ItemLinkedFotoVersion}");
+	}
+	SemanticResourceModel semCmsModel = Model.SemanticFrom;
+	 GnossOCBase.LanguageEnum idiomaUsuario = (GnossOCBase.LanguageEnum)Enum.Parse(typeof(GnossOCBase.LanguageEnum), Html.GetUtilIdiomas().LanguageCode.ToLower());
+	E39_Actor pE39_Actor = new E39_Actor(semCmsModel,idiomaUsuario);
+}
+<div class="row">
+<div class="col01 col col-12 col-lg-9">
+<div typeof="http://www.cidoc-crm.org/cidoc-crm#E39_Actor:e39_actor">
+<div class="contentGroup contenidoPrincipal">
+<div class="group title">
+</div>
+</div>
+<div class="group content semanticView">
+<div class="group group_info">
+<div class="contentGroup">
+@if(!string.IsNullOrEmpty(pE39_Actor.Ecidoc_p96_E67_p7_gave_birth_place))
+{
+<div>
+		<strong>@pE39_Actor.GetLabel(nameof(pE39_Actor.Ecidoc_p96_E67_p7_gave_birth_place),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE39_Actor.GetPropertyURI(nameof(pE39_Actor.Ecidoc_p96_E67_p7_gave_birth_place))"> @pE39_Actor.Ecidoc_p96_E67_p7_gave_birth_place </p>
+</span>
+</div>
+}
+@if(!string.IsNullOrEmpty(pE39_Actor.Cidoc_p3_has_note))
+{
+<div>
+		<strong>@pE39_Actor.GetLabel(nameof(pE39_Actor.Cidoc_p3_has_note),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE39_Actor.GetPropertyURI(nameof(pE39_Actor.Cidoc_p3_has_note))"> @pE39_Actor.Cidoc_p3_has_note </p>
+</span>
+</div>
+}
+@if(pE39_Actor.Ecidoc_p96_E67_p4_gave_birth_year!=null)
+{
+<div>
+		<strong>@pE39_Actor.GetLabel(nameof(pE39_Actor.Ecidoc_p96_E67_p4_gave_birth_year),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE39_Actor.GetPropertyURI(nameof(pE39_Actor.Ecidoc_p96_E67_p4_gave_birth_year))"> @pE39_Actor.Ecidoc_p96_E67_p4_gave_birth_year </p>
+</span>
+</div>
+}
+@if(!string.IsNullOrEmpty(pE39_Actor.Ecidoc_p96_E67_p4_gave_birth_date))
+{
+<div>
+		<strong>@pE39_Actor.GetLabel(nameof(pE39_Actor.Ecidoc_p96_E67_p4_gave_birth_date),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE39_Actor.GetPropertyURI(nameof(pE39_Actor.Ecidoc_p96_E67_p4_gave_birth_date))"> @pE39_Actor.Ecidoc_p96_E67_p4_gave_birth_date </p>
+</span>
+</div>
+}
+@if(!string.IsNullOrEmpty(pE39_Actor.Ecidoc_p100i_E69_p4_death_date))
+{
+<div>
+		<strong>@pE39_Actor.GetLabel(nameof(pE39_Actor.Ecidoc_p100i_E69_p4_death_date),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE39_Actor.GetPropertyURI(nameof(pE39_Actor.Ecidoc_p100i_E69_p4_death_date))"> @pE39_Actor.Ecidoc_p100i_E69_p4_death_date </p>
+</span>
+</div>
+}
+@if(!string.IsNullOrEmpty(pE39_Actor.Ecidoc_p131_E82_p102_has_title))
+{
+<div>
+		<strong>@pE39_Actor.GetLabel(nameof(pE39_Actor.Ecidoc_p131_E82_p102_has_title),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE39_Actor.GetPropertyURI(nameof(pE39_Actor.Ecidoc_p131_E82_p102_has_title))"> @pE39_Actor.Ecidoc_p131_E82_p102_has_title[(int)idiomaUsuario] </p>
+</span>
+</div>
+}
+@if(!string.IsNullOrEmpty(pE39_Actor.Pm_identifier))
+{
+<div>
+		<strong>@pE39_Actor.GetLabel(nameof(pE39_Actor.Pm_identifier),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE39_Actor.GetPropertyURI(nameof(pE39_Actor.Pm_identifier))"> @pE39_Actor.Pm_identifier </p>
+</span>
+</div>
+}
+@if(pE39_Actor.Ecidoc_p100i_E69_p4_death_year!=null)
+{
+<div>
+		<strong>@pE39_Actor.GetLabel(nameof(pE39_Actor.Ecidoc_p100i_E69_p4_death_year),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE39_Actor.GetPropertyURI(nameof(pE39_Actor.Ecidoc_p100i_E69_p4_death_year))"> @pE39_Actor.Ecidoc_p100i_E69_p4_death_year </p>
+</span>
+</div>
+}
+@if(!string.IsNullOrEmpty(pE39_Actor.Ecidoc_p100i_E69_p7_death_place))
+{
+<div>
+		<strong>@pE39_Actor.GetLabel(nameof(pE39_Actor.Ecidoc_p100i_E69_p7_death_place),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE39_Actor.GetPropertyURI(nameof(pE39_Actor.Ecidoc_p100i_E69_p7_death_place))"> @pE39_Actor.Ecidoc_p100i_E69_p7_death_place </p>
+</span>
+</div>
+}
+@if(!string.IsNullOrEmpty(pE39_Actor.Ecidoc_p65_E36_shows_visual_item))
+{
+<div>
+		<strong>@pE39_Actor.GetLabel(nameof(pE39_Actor.Ecidoc_p65_E36_shows_visual_item),idiomaUsuario)</strong>
+<span class="values">
+		<img property="@pE39_Actor.GetPropertyURI(nameof(pE39_Actor.Ecidoc_p65_E36_shows_visual_item))" src="@Html.GetBaseUrlContent()/@pE39_Actor.Ecidoc_p65_E36_shows_visual_item" />
+</span>
+</div>
+}
+@if(pE39_Actor.Pm_period!=null)
+{
+<div>
+		<strong>@pE39_Actor.GetLabel(nameof(pE39_Actor.Pm_period),idiomaUsuario)</strong>
+<span class="values">
+		@foreach(string prop in pE39_Actor.Pm_period)
+		{
+			<p property="@pE39_Actor.GetPropertyURI(nameof(pE39_Actor.Pm_period))"> @prop </p>
+		}
+</span>
+</div>
+}
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+@functions
+{
+}
+@functions
+{
+}
+}

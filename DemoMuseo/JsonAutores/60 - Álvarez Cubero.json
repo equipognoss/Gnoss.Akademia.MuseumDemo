@@ -1,0 +1,188 @@
+{
+    "head": {
+        "link": [],
+        "vars": ["actor", "p", "valor"]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [{
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/pradomuseum.owl#identifier"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "60"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1827"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1827"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Madrid"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Madrid"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "\u00C1lvarez Cubero, Jos\u00E9"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "\u00C1lvarez Cubero, Jos\u00E9"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.cidoc-crm.org/cidoc-crm#p3_has_note"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Jos\u00E9 \u00C1lvarez Cubero aprendi\u00F3 el oficio de marmolista con su padre y el trabajo retabl\u00EDstico con su padrino, Francisco Javier Pedrajas, con quien colaborar\u00EDa en su juventud en el sagrario de la Iglesia de la Asunci\u00F3n de Priego. Fue protegido por el obispo prieguense Antonio Caballero y G\u00F3ngora, quien le financi\u00F3 su traslado a Granada, C\u00F3rdoba y Madrid, en esta \u00FAltima ciudad para poder estudiar en la Real Academia de San Fernando. Entre sus primeras obras se encuentra un ''Le\u00F3n luchando con una serpiente'' para la famosa Fuente del Rey de la ciudad de Priego.</br>Obtuvo el primer premio de primera clase en la Academia de San Fernando en 1799 con el relieve ''Martirio de Manas\u00E9s a Isa\u00EDas y otros profetas, porque le amenazaban en nombre de Dios'', y el rey le concedi\u00F3 una pensi\u00F3n para ampliar estudios en Par\u00EDs y Roma; en la Ciudad Eterna el embajador Jos\u00E9 Nicol\u00E1s de Azara le puso en contacto con importantes escultores.</br>En Par\u00EDs realiz\u00F3 en 1804 una gran obra, ''Gan\u00EDmedes'' (Madrid, Museo de la Real Academia de Bellas Artes de San Fernando), con la que obtuvo una medalla de oro y fue coronado por el mismo Napole\u00F3n.</br>Tras su estancia en la capital francesa, viaj\u00F3 pensionado a Roma, donde vivir\u00EDa el resto de su vida, y tuvo la oportunidad de conocer y disfrutar de la amistad del paradigma del Neoclasicismo, Antonio Canova, convirti\u00E9ndose en el llamado ''Canova espa\u00F1ol'' por su capacidad expresiva en el m\u00E1s puro estilo neocl\u00E1sico. Encarcelado en el Castillo de Sant'Angelo junto con toda la promoci\u00F3n de pensionados espa\u00F1oles por no reconocer a Jos\u00E9 I Bonaparte como rey de Espa\u00F1a, consiguieron la libertad por intercesi\u00F3n de Canova. El italiano ayud\u00F3 a \u00C1lvarez y logr\u00F3 que le encargaran un friso en bajorrelieve del ''Paso de las Term\u00F3pilas'' y tres sue\u00F1os de la Antig\u00FCedad referidos a ''Cicer\u00F3n'', ''Patroclo'' y ''Julio C\u00E9sar'' para el dormitorio del emperador en el Palacio del Quirinal de Roma, obras en escayola hoy conservadas en los Museos Vaticanos.</br>Ya Canova hab\u00EDa sugerido a Carlos IV que encargara esculturas para la decoraci\u00F3n de una de las hornacinas de la sala de escultura de la Casa del Labrador en Aranjuez a sus pensionados en Roma. El monarca mand\u00F3 hacer a \u00C1lvarez en 1806 un ''Apolo joven inspirado por la m\u00FAsica'', obra que realiz\u00F3 pero tuvo que vender para sobrevivir durante la Guerra de la Independencia, y de la que esculpi\u00F3 una segunda versi\u00F3n que vendi\u00F3 a Fernando VII y hoy se encuentra en el Museo del Prado (E805). Posteriormente realiza una ''Diana cazadora'' (E803), un ''Amor con sus atributos'' que vendi\u00F3 como suyo pero que en realidad era obra de su hijo Jos\u00E9 \u00C1lvarez Bouquel (E814), un ''Morfeo o Amor dormido en la edad de la inocencia'' (E571), y un ''Joven con cisne'' (E807) todos ellos de seis palmos romanos de altura -menos el Morfeo-, y comprados por Fernando VII en 1827 y conservados en el Museo del Prado, junto con un ''Amorcillo con un cisne'', y los bustos de ''Fernando VII'' y el ''Infante don Carlos Isidro y Rossini''. Hasta 2011 se cre\u00EDa que en el Palacio de Liria se conservaba otra versi\u00F3n de su mano de Rossini pero las investigaciones de Azcue y Garc\u00EDa S\u00E1nchez han aclarado que no es as\u00ED. Tuvo encargos importantes, tanto de los monarcas como del XIV duque de Alba. Realiz\u00F3 el retrato de cuerpo entero de las reinas ''Mar\u00EDa Luisa de Parma'' (E902) e ''Isabel de Braganza'' (E00001) y el de la ''Marquesa de Ariza'' (Fundaci\u00F3n Casa de Alba), y una estatua colosal del ''Duque de Werwick'' que no lleg\u00F3 a fundirse. El Museo de la Real Academia conserva en escayola un busto de ''Esteban de Agreda''. La bibliograf\u00EDa recoge varias obras m\u00E1s vinculadas a la Academia, as\u00ED como otras que se conservaban en su estudio romano y encargos privados.</br>Hizo para el Ayuntamiento de Salamanca los bustos de ''Carlos IV'' y ''Mar\u00EDa Luisa'', en Roma el cenotafio del embajador ''Antonio Vargas'' para la Iglesia de Montserrat en 1824, y los retratos de ''Jer\u00F3nimo Bonaparte'' y su esposa ''Catalina de Wurtemberg'' para el Ayuntamiento de Ajaccio.</br>Ostent\u00F3 numerosos cargos y recibi\u00F3 importantes galardones a lo largo de su vida: fue nombrado acad\u00E9mico de la Accademia di San Luca de Roma en 1814, as\u00ED como de las de Carrara, N\u00E1poles, Amberes y del Instituto de Francia; fue escultor de c\u00E1mara en 1816 y en noviembre de 1819 ingres\u00F3 en la Academia de San Fernando; fue designado para el cargo de primer escultor de c\u00E1mara en 1823 y teniente director a partir de 1826. No volvi\u00F3 inmediatamente a la Corte para concluir el grupo de la ''La defensa de Zaragoza'' (E789), considerada su obra cumbre, testimonio de la fuerza, dramatismo y el valor del ser humano, y en palabras de Pardo Canal\u00EDs ''la creaci\u00F3n m\u00E1s celebrada del neoclasicismo escult\u00F3rico espa\u00F1ol'', que se trajo a Espa\u00F1a en 1827, una vez fallecido el artista (Azcue, L. en: El siglo XIX en el Prado, Museo Nacional del Prado, 2007, p. 466).</br></br>Su retrato grabado por Cayetano Palmaroli corresponde a la obra G03694 del Museo del Prado."
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p65_E36_shows_visual_item"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "imagenes/Documentos/imgsem/3a/3aac/3aac0b24-bb01-4ae0-bc7f-160f5cfb43bd/720339db-476a-498a-8b85-b34fe2293dc1.jpg"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1768"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1768"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Priego, C\u00F3rdoba"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Priego, C\u00F3rdoba"
+                }
+            }
+        ]
+    }
+}

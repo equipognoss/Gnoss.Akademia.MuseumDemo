@@ -1,0 +1,189 @@
+{
+    "head": {
+        "link": [],
+        "vars": ["actor", "p", "valor"]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [{
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/pradomuseum.owl#identifier"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1815"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1586"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1586"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Alc\u00E1ntara?"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Alc\u00E1ntara?"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Morales, Luis de"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Morales, Luis de"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.cidoc-crm.org/cidoc-crm#p3_has_note"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Luis de Morales was born in 1510 or 1511. In an affidavit made in December 1584, the painter declared himself to \u201Cbe of the age of seventy-three or four years\u201D, an affirmation that confirms the information given by Antonio Palomino in his \u201CVidas\u201D. The painter almost certainly died in 1586 in Alc\u00E1ntara, the place where he had settled in the last years of his life. According to the testimony of his daughter Isabel, he was buried in the high chapel of the church of the Hospital de la Antigua Piedad in Badajoz, where the body of his wife, Leonor de Chaves, was also to lie. It might be deduced that Morales travelled before his death to the city where he had lived for most of his life, but this is improbable since he resided in Alc\u00E1ntara with what remained of his family, with the exception of his daughter, Sister Mariana de Jes\u00FAs.<br />Morales went to live in Badajoz in about 1539, and that small city was thenceforth the setting for both his family life and attending to many of the commissions received by his workshop. Contrary to tradition, nevertheless, it cannot have been his birthplace. Everything indicates that the city became the central place in his biography after his marriage to Leonor de Chaves. Their union was prolific, not only because she bore him seven children but also because his wife\u2019s family relations allowed him to broaden his horizon of clients and social contacts.<br />Before setting up his home and workshop in Badajoz, Morales lived in Plasencia. This is a town in Upper Extremadura, an area close to Salamanca, \u00C1vila and Toledo. He received payments in 1535 for gilding and painting sculptures, and for appraising the altarpiece made by the sculptor Guillerm\u00EDn de Gante for the parish church of San Pedro Ap\u00F3stol in Aldeanueva de la Vera, a small town belonging to the bishopric of Plasencia. Two years later, in a binding letter of guarantee dated 25 January 1537, he is named as a \u201Cpainter and neighbour of the said city\u201D of Plasencia, receiving ten thousand \u201Cmaraved\u00EDs\u201D as down payment for an altarpiece commissioned for the parish church of Santiago in the town of Belv\u00EDs de Monroy. It can therefore be concluded that Morales resided in Plasencia from at least 1535 to 1537, and the evidence provided by the Aldeanueva and Belv\u00EDs documents suggests a prolonged relationship with the city\u2019s artistic milieu.<br />In 1539 or 1540, Luis de Morales began the altarpiece of the parish church of Villanueva de Barcarrota, a village less than fifty kilometres to the south of Badajoz, which had a population of just over 1,200 when it was sold on 14 May 1539 by the Order of Alc\u00E1ntara to Juan Portocarrero, first Marquis of the town, seventh Lord of Villanueva del Fresno, Lord of Moguer, Knight Commander of Estepa and Segura de la Sierra, and chief magistrate of Seville. It was probably Portocarrero who commissioned the altarpiece for the parish church, though the work was not deemed to have been completed until 1549, after a court order had been served for its delivery. The prolonged and doubtless fraught commission for the Barcarrota altarpiece, the securing of new contracts for other altarpieces in the region, and the painter\u2019s marriage to Leonor de Chaves all help to explain why Luis de Morales settled definitively in Badajoz.<br />For a large part of his life, Morales had an active artistic career that frequently obliged him to travel to arrange commissions, execute them or oversee their completion by the workshop. Otherwise, like many other artists in the region, he rounded off his finances with other sources of income. He owned houses and land in the city as well as vines, olives and livestock in the surrounding area. The markedly rural profile of both the artist and the milieu he lived in is evident too when we recall that Bishop Juan de Ribera paid him for several commissions in kind: wheat and barley, or \u201Ca Friesian horse with bit and saddle\u201D.<br />Fifty years went by between Morales\u2019s first works in Aldeanueva de la Vera and his last intervention, even if nominal, at the convent church of Alc\u00E1ntara. It was a long career for a very active painter with a high reputation in Extremadura, during which time he produced about twenty altarpieces and around one hundred devotional panels, although the exact number of these, his best known work, is complex to determine because of the numerous versions, derivations and copies of Morales\u2019s originals that continue to appear.<br />Of the altarpieces, only the ones at Arroyo de la Luz and San Mart\u00EDn in Plasencia remain completely mounted with their original structure and decoration. At Higuera la Real, all the painted panels are preserved, but not the structure. Visitors can also see some of the panels painted for Elvas Cathedral, the Dominicans in \u00C9vora, the convent church of Alc\u00E1ntara and the Chapel of El Sagrario at Badajoz Cathedral. As a master of altarpieces, Morales\u2019s most important work was produced in the 1540s and 1550s.<br />The references to the principal people Morales worked for are coupled above all with small-format works of a private character, known as \u201Ctablillas\u201D or, as they are more frequently cited, \u201Cpie\u00E7as\u201D. A great many \u201Clords of the realm have sent and continue to send \u2026 to this city [Badajoz] to have many pie\u00E7as of painting made \u2026 which are works that have been highly esteemed by all those who have seen them, saying they are the best works now to be found in the Kingdom\u201D, for they are paintings which \u201Che finishes very well and very true to life\u201D. There are successive mentions of these pieces, on which the favourable testimonies tend to be centred, and which had earned the painter much of his reputation since the early 1540s.<br />Among the long list of works produced in the 1540s, one which stands out exceptionally is \u201CThe Virgin and Child with the Little Bird\u201D, of 1546. One of the painter\u2019s most successful achievements, and the only work which he dated, it was painted for the church of the Hospital de la Concepci\u00F3n in Badajoz, and has been kept since about 1950 in the parish church of San Agust\u00EDn in Madrid. Its compositional grandeur, plastic quality and large size prove the degree of creative maturity that Morales was capable of showing at that time.<br />It was during the incumbency of Francisco de Navarra that Morales started to perform a succession of tasks in the diocese. He was asked to carry out appraisals in 1552, when he also painted the surround of an altarpiece at the parish church of Santa Mar\u00EDa del Castillo. The next year he received a more significant commission to provide the paintings for the Chapel of El Sagrario (1553-54), four panels meant for a space that was also to hold \u201CThe Virgin of La Antigua\u201D, one of the city\u2019s chief devotional images since the end of the fifteenth century, when it was hung in the retrochoir of the cathedral, a space eliminated in the mid-sixteenth century with the addition of new choir stalls. Morales must already have had some collaborator or assistant while he was working for Badajoz Cathedral, as seems clear from the uneven quality of the four panels for the Chapel of El Sagrario, independently of the state of conservation in which they have come down to us. Commissions started to accumulate for the painter around that time. Besides the work he had been contracted to do for the cathedral, he also had altarpieces to make for the parish churches of Puebla de la Calzada and Lob\u00F3n, whose proximity to each other would make it easier for him to work on both.<br />Arroyo de la Luz, where Morales and his workshop were occupied from 1560 to 1563 on the main altarpiece of the parish church, a highly impressive group preserved in situ with its whole architectural and sculptural structure still in place. Fourteen of the twenty panels painted for it show the episodes from the life of Christ that were most frequently repeated in this type of work, nearly all of them represented on more than one occasion by Morales, who used various engravings (Schongauer, D\u00FCrer, Cort, Caraglio) as sources for his compositions, as well as direct knowledge of works, copies or versions by Pieter Coecke van Aelst, Massys, Piombo and Alonso Berruguete.<br />In the second half of the decade, he received a succession of commissions related to Bishop Juan de Ribera (1532-1611), who governed the diocese from 1562 to 1568. All the works are linked to private requirements of the prelate, and make up a not very numerous group of small-format works on Marian themes or subjects from the Passion. The end of Ribera\u2019s incumbency coincided with a decline in the activity of the painter\u2019s workshop. In the 1570s, he is mentioned in relation with only two altarpieces, the one at the church of Entrambos \u00C1lamos in San Felices de los Gallegos (Salamanca), whose contract dates from 1572, and the one for the main church of Elvas (Portugal), commissioned in late 1575 or early 1576.<br />Palomino told of an encounter between the painter and Philip II in 1580. While there is no further proof that such a meeting ever took place, the story could well reflect Morales\u2019s situation after the years of bonanza. The painter, his daughters Isabel and Catalina, the latter\u2019s husband and their son moved to Alc\u00E1ntara in 1582. We do not know why the whole family moved in this way. Perhaps their relations in Alc\u00E1ntara had given them hope of more work and a better income than they had while living in Badajoz. Once in Alc\u00E1ntara, Morales, assisted by his son-in-law Pedro S\u00E1nchez de Vera, made the altarpieces for the Ovando and Santill\u00E1n Chapels in the town\u2019s Holy Convent. The master\u2019s precarious health must have limited his participation to a testimonial presence, a supposition confirmed by the resolution of the preserved panels, where at least two hands can be distinguished, one of them perhaps that of a Morales with an unsteady pulse who probably died shortly afterwards (Ruiz, L.: The Divine Morales, Museo Nacional del Prado, 2015, pp 17-34)."
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.cidoc-crm.org/cidoc-crm#p3_has_note"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Luis de Morales naci\u00F3 en 1510 o 1511. En una declaraci\u00F3n de diciembre de 1584, el propio pintor dec\u00EDa \u201Cser de edad de setenta y tres o quatro a\u00F1os\u201D, una afirmaci\u00F3n que confirma lo apuntado por Antonio Palomino en sus Vidas. El pintor muri\u00F3 seguramente en 1586, y debi\u00F3 de hacerlo en Alc\u00E1ntara, el lugar donde se hab\u00EDa establecido en los \u00FAltimos a\u00F1os de su vida. Seg\u00FAn el testimonio de su hija Isabel, fue enterrado en Badajoz, en la capilla mayor de la iglesia del Hospital de la Antigua Piedad, donde tambi\u00E9n reposar\u00EDan los restos de su esposa, Leonor de Chaves. Se podr\u00EDa deducir que Morales viaj\u00F3 antes de morir a la ciudad en la que hab\u00EDa vivido la mayor parte de su vida, pero resulta improbable, habida cuenta de que en Alc\u00E1ntara resid\u00EDa con lo que quedaba de su familia, a excepci\u00F3n de su hija sor Mariana de Jes\u00FAs.</br>Morales se estableci\u00F3 en Badajoz hacia 1539. La peque\u00F1a ciudad fue desde esa fecha el \u00E1mbito en el que desarroll\u00F3 su vida familiar y desde donde atendi\u00F3 gran parte de los encargos que recayeron en su obrador. Sin embargo, y contrariamente a lo que tradicionalmente se ha afirmado, no debi\u00F3 de ser el lugar en que naci\u00F3. Todo apunta a que la ciudad se convirti\u00F3 en el centro fundamental de su biograf\u00EDa a partir de su casamiento con Leonor de Chaves, una prol\u00EDfica uni\u00F3n, y no solo porque del matrimonio nacieran siete hijos, sino porque las relaciones familiares de la esposa le permitieron ampliar el horizonte de clientes y contactos sociales.</br>Antes de tener su casa y taller en Badajoz, Morales vivi\u00F3 en Plasencia, localidad de la Alta Extremadura, un \u00E1rea pr\u00F3xima a Salamanca, \u00C1vila y Toledo. En 1535 recib\u00EDa pagos por dorar y pintar esculturas, as\u00ED como por tasar el retablo realizado por el escultor Guillerm\u00EDn de Gante para la parroquia de San Pedro Ap\u00F3stol en Aldeanueva de la Vera, poblaci\u00F3n perteneciente al obispado placentino. Dos a\u00F1os despu\u00E9s, en una carta de obligaci\u00F3n y fianza fechada el 25 de enero de 1537, se le cita como \u201Cpintor vecino de la dicha ciudad\u201D de Plasencia, recibiendo diez mil maraved\u00EDs como primer pago por el encargo de un retablo para la parroquia de Santiago en la villa de Belv\u00EDs de Monroy. Por lo tanto, podemos concluir que Morales residi\u00F3 en Plasencia al menos entre 1535 y 1537, y los indicios que ofrecen los documentos de Aldeanueva y Belv\u00EDs sugieren una prolongada relaci\u00F3n con el medio art\u00EDstico de la ciudad.</br>En 1539 o 1540, Luis de Morales inici\u00F3 el retablo de la iglesia parroquial de Villanueva de Barcarrota, un enclave situado a menos de cincuenta kil\u00F3metros al sur de Badajoz, con poco m\u00E1s de mil doscientos habitantes de poblaci\u00F3n cuando el 14 de mayo de 1539 fue vendida por la Orden de Alc\u00E1ntara a Juan Portocarrero, primer marques de la villa, s\u00E9ptimo se\u00F1or de Villanueva del Fresno, de Moguer, comendador de Estepa y Segura de la Sierra y alcalde mayor de Sevilla. Es probable que fuera Portocarrero quien encargase el retablo parroquial, cuya realizaci\u00F3n se alarg\u00F3 hasta 1549, fecha en que se daba ya por terminado despu\u00E9s de alg\u00FAn requerimiento judicial. El prolongado y sin duda accidentado encargo del retablo de Barcarrota, la contrataci\u00F3n de otros nuevos en la zona y el matrimonio con Leonor de Chaves, explicar\u00EDan el establecimiento definitivo de Luis de Morales en Badajoz.</br>Durante una parte importante de su vida, Morales desarroll\u00F3 una activa carrera art\u00EDstica que le oblig\u00F3 a viajar con frecuencia para concertar encargos, llevarlos a cabo o controlar su realizaci\u00F3n por parte del taller. Por lo dem\u00E1s, como muchos otros artistas de su entorno, complet\u00F3 su econom\u00EDa con otras fuentes de ingresos. Fue propietario de casas y solares en la ciudad, adem\u00E1s de vi\u00F1as, olivos y ganado en su entorno. El perfil marcadamente rural del artista y del medio en que vivi\u00F3 se constata igualmente cuando recordamos c\u00F3mo el obispo Juan de Ribera le pag\u00F3 varios encargos en especie: trigo y cebada o \u201Cun cavallo fris\u00F3n ensillado y enfrenado\u201D.</br>Entre los primeros trabajos en Aldeanueva de la Vera y la \u00FAltima intervenci\u00F3n, al menos nominal, en la iglesia conventual de Alc\u00E1ntara, transcurrieron cincuenta a\u00F1os. Una larga trayectoria para un pintor muy activo y afamado en Extremadura, que realiz\u00F3 una veintena de retablos y en torno a un centenar de tablas de devoci\u00F3n, aunque el recuento de esta producci\u00F3n, la m\u00E1s conocida del pintor, sea bastante complejo, habida cuenta de las numerosas versiones, derivaciones y copias que de los originales de Morales se van conociendo.</br>De los retablos, solo los de Arroyo de la Luz y San Martin de Plasencia permanecen montados como conjuntos completos, manteniendo la estructura y decoraci\u00F3n con la que fueron creados. En Higuera la Real se guardan todos los tableros pintados, pero no la estructura. De los de la catedral de Elvas, los dominicos de Evora, conventual de Alcantara o la capilla del Sagrario de la catedral de Badajoz, el visitante puede contemplar algunas de las tablas pintadas. Como maestro de retablos, Morales desarrollo la parte m\u00E1s importante de su producci\u00F3n en los a\u00F1os cuarenta y cincuenta del siglo XVI.</br>Las referencias a las personas principales para las que trabaj\u00F3 Morales se ligan sobre todo a obras de peque\u00F1o formato y car\u00E1cter privado, \u201Ctablillas\u201D o, como se citan m\u00E1s frecuentemente, \u201Cpiecas\u201D, por las que muchos \u201Cse\u00F1ores del Reino an enviado y env\u00EDan [\u2026] a esta \u00E7iudad [Badajoz] ha hazer muchas pie\u00E7as de pintura [\u2026] las quales obras an sido muy estimadas de todos los que las an visto diziendo que son las mejores obras que ay agora en el Reino\u201D, pinturas que \u201Cacaba muy bien e muy del natural\u201D. Las citas se suceden a prop\u00F3sito de estas obras, sobre las que giran las declaraciones favorables, las que sustentaban, ya al inicio de la d\u00E9cada de los cincuenta, buena parte de la reputaci\u00F3n del pintor.</br>De la extensa relaci\u00F3n de trabajos desarrollados a lo largo de los a\u00F1os cuarenta destaca de manera excepcional \u201CLa Virgen del pajarito\u201D, de 1546. Una de las obras m\u00E1s conseguidas del pintor, y la \u00FAnica en la que incluy\u00F3 la fecha de realizaci\u00F3n, fue pintada para la iglesia del Hospital de la Concepci\u00F3n de Badajoz -desde aproximadamente 1950 en la parroquia de San Agust\u00EDn de Madrid- y, por su enjundia compositiva, calidad pl\u00E1stica y dimensiones, prueba el grado de madurez creativa que en esa fecha exhib\u00EDa Morales.</br>Fue durante la prelatura de Francisco de Navarra cuando Morales fue encadenando trabajos en la di\u00F3cesis de Badajoz: en 1552, alguna tasaci\u00F3n o la pintura del guardapolvo de un retablo en la parroquia de Santa Mar\u00EDa del Castillo; al a\u00F1o siguiente, un encargo m\u00E1s significativo, el de las pinturas para la capilla del Sagrario (1553-54), cuatro tableros pensados para un espacio al que tambi\u00E9n se incorpor\u00F3 \u201CLa Virgen de la Antigua\u201D, una de las im\u00E1genes devocionales m\u00E1s se\u00F1eras de la ciudad desde finales del siglo XV, cuando se colg\u00F3 en el trascoro de la catedral, un espacio que se elimin\u00F3 a mediados del XVI por la incorporaci\u00F3n de la nueva siller\u00EDa. En las tareas para la catedral pacense, Morales hubo de contar ya con alg\u00FAn colaborador o ayudante, como evidencia la desigual factura de las cuatro tablas para la capilla del Sagrario, independientemente del estado de conservaci\u00F3n con que han llegado hasta nosotros. En esas fechas se acumularon los encargos al pintor: adem\u00E1s de las tareas concertadas con la catedral, tuvo que hacer frente a los retablos de las iglesias parroquiales de Puebla de la Calzada y Lob\u00F3n, localidades muy pr\u00F3ximas entre s\u00ED, lo que facilitar\u00EDa la atenci\u00F3n a ambos trabajos.</br>En Arroyo de la Luz, entre 1560 y 1563 Morales y su taller se ocuparon en la realizaci\u00F3n del retablo mayor de la iglesia parroquial, un impresionante conjunto conservado in situ con toda su estructura arquitect\u00F3nica y escult\u00F3rica. En catorce de los veinte tableros realizados se recogen los episodios de la vida de Cristo m\u00E1s repetidos en este tipo de estructuras, representados casi todos ellos en m\u00E1s de una ocasi\u00F3n por Morales, quien se sirvi\u00F3 para su composici\u00F3n de diversas fuentes grabadas (Schongauer, Durero, Cort, Caraglio) o del conocimiento directo de obras, copias o versiones de Pieter Coecke van Aelst, Massys, Piombo o Alonso Berruguete.</br>En la segunda mitad del decenio se suceden los encargos relacionados con el obispo Juan de Ribera (1532-1611), quien gobern\u00F3 la di\u00F3cesis entre 1562 y 1568. Todos los trabajos se vinculan a los requerimientos privados del prelado, un grupo no muy extenso de obras de peque\u00F1o formato, de tema mariano o pasionista. El final de ese obispado coincidi\u00F3 con la decadencia laboral del taller del pintor, quien a lo largo de la d\u00E9cada de los setenta solo aparece relacionado con dos retablos, el de la iglesia de Entrambos \u00C1lamos en San Felices de los Gallegos (Salamanca), contratado en 1572, y, a finales de 1575 o principios de 1576, el de la iglesia mayor de Elvas (Portugal).</br>Palomino recogi\u00F3 un encuentro entre el pintor y Felipe II en 1580 que, sin estar probado, podr\u00EDa reflejar la situaci\u00F3n de Morales despu\u00E9s de a\u00F1os de bonanza. El pintor, las hijas Isabel y Catalina, el marido de esta \u00FAltima y el hijo de ambos se trasladaron a Alc\u00E1ntara en 1582. Los motivos de la mudanza al completo del grupo familiar se nos escapan. Tal vez las relaciones de los Morales en Alc\u00E1ntara les hac\u00EDan albergar esperanzas en un destino laboral y econ\u00F3mico m\u00E1s favorable que el que ten\u00EDan por esas fechas en Badajoz. Una vez en Alc\u00E1ntara, auxiliado por su yerno Pedro S\u00E1nchez de Vera, Morales llevo a cabo entre 1584 y 1586 los retablos destinados a las capillas de Ovando y Santill\u00E1n en el Sacro Convento. La precaria salud del maestro debi\u00F3 de limitar su participaci\u00F3n a una presencia m\u00E1s testimonial que efectiva, como demuestra la factura de las tablas conservadas, en las que al menos se aprecian dos manos, una de ellas quiz\u00E1 la de un Morales de pulso tembloroso que muri\u00F3 probablemente poco despu\u00E9s (Ruiz, L.: El Divino Morales, Museo Nacional del Prado, 2015, pp 17-34)."
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "Hacia 1510"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1510"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Badajoz"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Badajoz"
+                }
+            }
+        ]
+    }
+}

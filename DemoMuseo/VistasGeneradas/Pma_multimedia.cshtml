@@ -1,0 +1,291 @@
+@using Pma_multimediaOntology;
+@using Pma_obraOntology;
+@using GnossBase;
+@model ResourceViewModel
+@{
+	ResourceModel FichaDocumento = Model.Resource;
+	CommunityModel Comunidad = Html.GetComunidad();
+	UserIdentityModel IdentidadActual = Html.GetIdentidadActual();
+	Html.AddBodyClass(" C1003_ManifestationModel ");
+	if (FichaDocumento.ItemLinkedFotoVersion != 0 && !string.IsNullOrEmpty(FichaDocumento.ItemLinked.ToString()) && FichaDocumento.ItemLinked != Guid.Empty)
+	{
+	string urlPersonalizacion = $"{Html.GetBaseUrlContent()}/{Es.Riam.Util.UtilArchivos.ContentOntologias}/Archivos/{FichaDocumento.ItemLinked.ToString().Substring(0, 3)}";
+	Html.GetListaJS().Add($"{urlPersonalizacion}/{FichaDocumento.ItemLinked.ToString()}.js?v= {FichaDocumento.ItemLinkedFotoVersion}");
+	Html.GetListaCSS().Add($"{urlPersonalizacion}/{FichaDocumento.ItemLinked.ToString()}.css?v= {FichaDocumento.ItemLinkedFotoVersion}");
+	}
+	SemanticResourceModel semCmsModel = Model.SemanticFrom;
+	 GnossOCBase.LanguageEnum idiomaUsuario = (GnossOCBase.LanguageEnum)Enum.Parse(typeof(GnossOCBase.LanguageEnum), Html.GetUtilIdiomas().LanguageCode.ToLower());
+	C1003_Manifestation pC1003_Manifestation = new C1003_Manifestation(semCmsModel,idiomaUsuario);
+}
+<div class="row">
+<div class="col01 col col-12 col-lg-9">
+<div typeof="http://museodelprado.es/ontologia/efrbrer.owl#C1003_Manifestation:c1003_manifestation">
+<div class="contentGroup contenidoPrincipal">
+<div class="group title">
+</div>
+</div>
+<div class="group content semanticView">
+<div class="group group_info">
+<div class="contentGroup">
+@if(pC1003_Manifestation.Pm_relatedArtWork!=null)
+{
+<div>
+	@foreach(E22_Man_Made_Object prop in pC1003_Manifestation.Pm_relatedArtWork)
+	{
+		PintarE22_Man_Made_Object(prop,idiomaUsuario);
+	}
+</div>
+}
+@if(pC1003_Manifestation.Pm_publicationDate!=null)
+{
+<div>
+		<strong>@pC1003_Manifestation.GetLabel(nameof(pC1003_Manifestation.Pm_publicationDate),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pC1003_Manifestation.GetPropertyURI(nameof(pC1003_Manifestation.Pm_publicationDate))"> @pC1003_Manifestation.Pm_publicationDate </p>
+</span>
+</div>
+}
+<div>
+		<strong>@pC1003_Manifestation.GetLabel(nameof(pC1003_Manifestation.Efrbrer_p3020_has_title_of_the_manifestation),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pC1003_Manifestation.GetPropertyURI(nameof(pC1003_Manifestation.Efrbrer_p3020_has_title_of_the_manifestation))"> @pC1003_Manifestation.Efrbrer_p3020_has_title_of_the_manifestation[(int)idiomaUsuario] </p>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+@functions
+{
+ void PintarAudioguide(Audioguide pAudioguide,GnossOCBase.LanguageEnum idiomaUsuario, Observation pObservation){
+<div typeof="http://museodelprado.es/ontologia/efrbrer.owl#Audioguide:audioguide">
+<div class="contentGroup contenidoPrincipal">
+<div class="group title">
+</div>
+</div>
+<div class="group content semanticView">
+<div class="group group_info">
+<div class="contentGroup">
+@if(!string.IsNullOrEmpty(pAudioguide.Pm_audioFile))
+{
+<div>
+		<strong>@pAudioguide.GetLabel(nameof(pAudioguide.Pm_audioFile),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pAudioguide.GetPropertyURI(nameof(pAudioguide.Pm_audioFile))"> @pAudioguide.Pm_audioFile[(int)idiomaUsuario] </p>
+</span>
+</div>
+}
+@if(pC1003_Manifestation.Pm_relatedArtWork!=null)
+{
+<div>
+	@foreach(E22_Man_Made_Object prop in pC1003_Manifestation.Pm_relatedArtWork)
+	{
+		PintarE22_Man_Made_Object(prop,idiomaUsuario);
+	}
+</div>
+}
+@if(pC1003_Manifestation.Pm_publicationDate!=null)
+{
+<div>
+		<strong>@pC1003_Manifestation.GetLabel(nameof(pC1003_Manifestation.Pm_publicationDate),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pC1003_Manifestation.GetPropertyURI(nameof(pC1003_Manifestation.Pm_publicationDate))"> @pC1003_Manifestation.Pm_publicationDate </p>
+</span>
+</div>
+}
+<div>
+		<strong>@pC1003_Manifestation.GetLabel(nameof(pC1003_Manifestation.Efrbrer_p3020_has_title_of_the_manifestation),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pC1003_Manifestation.GetPropertyURI(nameof(pC1003_Manifestation.Efrbrer_p3020_has_title_of_the_manifestation))"> @pC1003_Manifestation.Efrbrer_p3020_has_title_of_the_manifestation[(int)idiomaUsuario] </p>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+}
+ void PintarAudio(Audio pAudio,GnossOCBase.LanguageEnum idiomaUsuario, Observation pObservation){
+<div typeof="http://museodelprado.es/ontologia/efrbrer.owl#Audio:audio">
+<div class="contentGroup contenidoPrincipal">
+<div class="group title">
+</div>
+</div>
+<div class="group content semanticView">
+<div class="group group_info">
+<div class="contentGroup">
+@if(!string.IsNullOrEmpty(pAudio.Pm_audioFile))
+{
+<div>
+		<strong>@pAudio.GetLabel(nameof(pAudio.Pm_audioFile),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pAudio.GetPropertyURI(nameof(pAudio.Pm_audioFile))"> @pAudio.Pm_audioFile[(int)idiomaUsuario] </p>
+</span>
+</div>
+}
+@if(pC1003_Manifestation.Pm_relatedArtWork!=null)
+{
+<div>
+	@foreach(E22_Man_Made_Object prop in pC1003_Manifestation.Pm_relatedArtWork)
+	{
+		PintarE22_Man_Made_Object(prop,idiomaUsuario);
+	}
+</div>
+}
+@if(pC1003_Manifestation.Pm_publicationDate!=null)
+{
+<div>
+		<strong>@pC1003_Manifestation.GetLabel(nameof(pC1003_Manifestation.Pm_publicationDate),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pC1003_Manifestation.GetPropertyURI(nameof(pC1003_Manifestation.Pm_publicationDate))"> @pC1003_Manifestation.Pm_publicationDate </p>
+</span>
+</div>
+}
+<div>
+		<strong>@pC1003_Manifestation.GetLabel(nameof(pC1003_Manifestation.Efrbrer_p3020_has_title_of_the_manifestation),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pC1003_Manifestation.GetPropertyURI(nameof(pC1003_Manifestation.Efrbrer_p3020_has_title_of_the_manifestation))"> @pC1003_Manifestation.Efrbrer_p3020_has_title_of_the_manifestation[(int)idiomaUsuario] </p>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+}
+ void PintarSignguide(Signguide pSignguide,GnossOCBase.LanguageEnum idiomaUsuario, Observation pObservation){
+<div typeof="http://museodelprado.es/ontologia/efrbrer.owl#Signguide:signguide">
+<div class="contentGroup contenidoPrincipal">
+<div class="group title">
+</div>
+</div>
+<div class="group content semanticView">
+<div class="group group_info">
+<div class="contentGroup">
+@if(pSignguide.Pm_duration!=null)
+{
+<div>
+		<strong>@pSignguide.GetLabel(nameof(pSignguide.Pm_duration),idiomaUsuario)</strong>
+<span class="values">
+		@foreach(string prop in pSignguide.Pm_duration)
+		{
+			<p property="@pSignguide.GetPropertyURI(nameof(pSignguide.Pm_duration))"> @prop </p>
+		}
+</span>
+</div>
+}
+@if(pC1003_Manifestation.Pm_relatedArtWork!=null)
+{
+<div>
+	@foreach(E22_Man_Made_Object prop in pC1003_Manifestation.Pm_relatedArtWork)
+	{
+		PintarE22_Man_Made_Object(prop,idiomaUsuario);
+	}
+</div>
+}
+@if(pC1003_Manifestation.Pm_publicationDate!=null)
+{
+<div>
+		<strong>@pC1003_Manifestation.GetLabel(nameof(pC1003_Manifestation.Pm_publicationDate),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pC1003_Manifestation.GetPropertyURI(nameof(pC1003_Manifestation.Pm_publicationDate))"> @pC1003_Manifestation.Pm_publicationDate </p>
+</span>
+</div>
+}
+<div>
+		<strong>@pC1003_Manifestation.GetLabel(nameof(pC1003_Manifestation.Efrbrer_p3020_has_title_of_the_manifestation),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pC1003_Manifestation.GetPropertyURI(nameof(pC1003_Manifestation.Efrbrer_p3020_has_title_of_the_manifestation))"> @pC1003_Manifestation.Efrbrer_p3020_has_title_of_the_manifestation[(int)idiomaUsuario] </p>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+}
+ void PintarVideo(Video pVideo,GnossOCBase.LanguageEnum idiomaUsuario, Observation pObservation){
+<div typeof="http://museodelprado.es/ontologia/efrbrer.owl#Video:video">
+<div class="contentGroup contenidoPrincipal">
+<div class="group title">
+</div>
+</div>
+<div class="group content semanticView">
+<div class="group group_info">
+<div class="contentGroup">
+@if(pVideo.Efrbrer_has_intervener_person!=null)
+{
+<div>
+		<strong>@pVideo.GetLabel(nameof(pVideo.Efrbrer_has_intervener_person),idiomaUsuario)</strong>
+<span class="values">
+		@foreach(string prop in pVideo.Efrbrer_has_intervener_person)
+		{
+			<p property="@pVideo.GetPropertyURI(nameof(pVideo.Efrbrer_has_intervener_person))"> @prop </p>
+		}
+</span>
+</div>
+}
+@if(!string.IsNullOrEmpty(pVideo.Pm_duration))
+{
+<div>
+		<strong>@pVideo.GetLabel(nameof(pVideo.Pm_duration),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pVideo.GetPropertyURI(nameof(pVideo.Pm_duration))"> @pVideo.Pm_duration[(int)idiomaUsuario] </p>
+</span>
+</div>
+}
+@if(pC1003_Manifestation.Pm_relatedArtWork!=null)
+{
+<div>
+	@foreach(E22_Man_Made_Object prop in pC1003_Manifestation.Pm_relatedArtWork)
+	{
+		PintarE22_Man_Made_Object(prop,idiomaUsuario);
+	}
+</div>
+}
+@if(pC1003_Manifestation.Pm_publicationDate!=null)
+{
+<div>
+		<strong>@pC1003_Manifestation.GetLabel(nameof(pC1003_Manifestation.Pm_publicationDate),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pC1003_Manifestation.GetPropertyURI(nameof(pC1003_Manifestation.Pm_publicationDate))"> @pC1003_Manifestation.Pm_publicationDate </p>
+</span>
+</div>
+}
+<div>
+		<strong>@pC1003_Manifestation.GetLabel(nameof(pC1003_Manifestation.Efrbrer_p3020_has_title_of_the_manifestation),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pC1003_Manifestation.GetPropertyURI(nameof(pC1003_Manifestation.Efrbrer_p3020_has_title_of_the_manifestation))"> @pC1003_Manifestation.Efrbrer_p3020_has_title_of_the_manifestation[(int)idiomaUsuario] </p>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+}
+}
+@functions
+{
+void PintarE22_Man_Made_Object(E22_Man_Made_Object pE22_Man_Made_Object, GnossOCBase.LanguageEnum idiomaUsuario) {
+
+if(pE22_Man_Made_Object.Cidoc_p1_is_identified_by!=null)
+{
+<div>
+		<strong>@pE22_Man_Made_Object.GetLabel(nameof(pE22_Man_Made_Object.Cidoc_p1_is_identified_by),idiomaUsuario)</strong>
+<span>
+<p property ="@pE22_Man_Made_Object.GetPropertyURI(nameof(pE22_Man_Made_Object.Cidoc_p1_is_identified_by))"> @pE22_Man_Made_Object.Cidoc_p1_is_identified_by </p>
+</span>
+</div>
+}
+}
+}
+}

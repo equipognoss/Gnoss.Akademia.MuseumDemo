@@ -1,0 +1,188 @@
+{
+    "head": {
+        "link": [],
+        "vars": ["actor", "p", "valor"]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [{
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/pradomuseum.owl#identifier"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "2185"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1520"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1520"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Roma"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Rome"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Raphael"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Rafael"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.cidoc-crm.org/cidoc-crm#p3_has_note"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Rafael ha sido siempre reconocido como uno de los m\u00E1s grandes artistas del alto renacimiento en Italia. En su corta vida se vio aclamado como pintor, dise\u00F1ador y arquitecto, y trabaj\u00F3 para dos de los mayores mecenas de su tiempo, los papas Julio II y Le\u00F3n X. En los or\u00EDgenes de su enorme \u00E9xito estaban su herencia art\u00EDstica y el estudio constante. Su padre, Giovanni Santi, fue pintor y poeta en la corte de los Montefeltro en Urbino y, aunque falleci\u00F3 cuando su hijo a\u00FAn no contaba doce a\u00F1os (en agosto de 1494), es probable que le ense\u00F1ara los primeros rudimentos de la pintura. Rafael fue tambi\u00E9n poeta estimable, y la sensibilidad con que abord\u00F3 los temas de sus pinturas hace suponer una deuda intelectual hacia su padre y la cultura de la corte de Urbino. A ello hay que a\u00F1adir que sus dotes t\u00E9cnicas e intelectuales pudieron florecer gracias a la soltura con que aparentemente se movi\u00F3 en los c\u00EDrculos del poder de Urbino, Florencia y Roma, y tambi\u00E9n porque en su don de gentes (que el historiador del siglo XVI Giorgio Vasari se\u00F1ala en sus Vidas de los artistas de 1550 y 1568) debi\u00F3 de parecerse a Giovanni Santi. Su maestro m\u00E1s importante no fue su padre sino Pietro Perugino. Tanto la naturaleza de su aprendizaje con Perugino como su fecha y duraci\u00F3n han sido muy discutidas, pero sobre su realidad hay testimonios contempor\u00E1neos fehacientes, y su influjo sobre el estilo de Rafael fue duradero. Rafael ejecut\u00F3 sus primeras pinturas independientes para Urbino y las localidades umbras de Perugia y Citt\u00E0 di Castello hacia 1500-1507, y todas ostentan la huella del estilo de Perugino. Su primer encargo documentado es un gran retablo que pint\u00F3 en 1500-1501 para la iglesia de San Agust\u00EDn de Citt\u00E0 di Castello (fragmentos en Par\u00EDs, Brescia y N\u00E1poles), pero en 1504 se estableci\u00F3 en Florencia, donde Miguel \u00C1ngel y Leonardo estaban revolucionando el renacimiento florentino con sus dram\u00E1ticas batallas para el Palacio Vecchio y otras obras. El joven Rafael se sumergi\u00F3 en el arte nuevo, y muchos dibujos demuestran que estudi\u00F3 aspectos del estilo de uno y otro maestro. Pueden verse influencias de los dos en La Sagrada Familia del cordero (1507, Prado), ejemplo representativo de la pintura de peque\u00F1o formato (no cuadros de altar sino cuadritos de devoci\u00F3n y retratos) que hizo en Florencia. A finales de 1508 o comienzos de 1509 fue llamado a Roma por Julio II (papa de 1503 a 1513), para trabajar, junto con Perugino, Lotto, Sodoma y otros, en la redecoraci\u00F3n de las salas del palacio del Vaticano que ahora se conocen como stanze. Integrado inicialmente en un equipo, Rafael no tard\u00F3 en asumir la responsabilidad de todo el conjunto, y el proyecto le tuvo ocupado hasta su temprana muerte. Sus primeros frescos, en la Stanza della Segnatura (h. 1508-1511), comprenden La disputa del Sacramento y La escuela de Atenas, y representan una cima del alto renacimiento en Roma. En La disputa est\u00E1 retratado el mismo personaje cuya imagen pint\u00F3 Rafael sobre una tabla que se conserva en el Prado: El cardenal, realizado en Roma hacia 1510-1511. Es uno de los m\u00E1s grandes retratos del siglo XVI, y demuestra las nuevas influencias venecianas que Rafael hab\u00EDa asimilado en Roma (en especial la de Lorenzo Lotto, como despu\u00E9s la de Sebastiano del Piombo), as\u00ED como su gran pericia t\u00E9cnica. El \u00E9xito que el pintor alcanz\u00F3 en Roma fue tal que pronto se vio desbordado por encargos de pintura, dise\u00F1o y arquitectura, y su taller creci\u00F3 hasta convertirse en el motor del renacimiento romano. Tras la elevaci\u00F3n al solio de Le\u00F3n X (papa de 1513 a 1521), Rafael hizo cuadros de altar para otros lugares, entre ellos La Virgen del pez (h. 1513, Prado), pintada para una capilla de Santo Domingo de N\u00E1poles, y la Ca\u00EDda en el camino del Calvario, \u00ABel pasmo de Sicilia\u00BB (h. 1517, Prado), pintada para el convento de Santa Mar\u00EDa de las Angustias de Palermo. Estas dos obras, que fueron trasladadas de tabla a lienzo hacia 1813, permiten apreciar la monumentalidad que hab\u00EDan adquirido sus figuras y sus composiciones narrativas en comparaci\u00F3n con su pintura anterior. La segunda, particularmente dram\u00E1tica, revela influencias de grabados norte\u00F1os a la vez que las de Miguel \u00C1ngel y Leonardo. Esos cuadros de altar y otros posteriores tuvieron enorme repercusi\u00F3n en el arte romano del alto renacimiento, e incluso en el barroco (en artistas como Guido Reni y los Carracci). Al mismo tiempo Rafael trabajaba en diversos proyectos para Le\u00F3n X, entre ellos la continuaci\u00F3n de los frescos de las stanze (finaliza la Stanza di Heliodoro, 1511-1514, y la Stanza dell'Incendio di Borgo, 1514-1517) y la preparaci\u00F3n de los ''Cartones de Rafael'' (1515-1516, Royal Collection, en dep\u00F3sito en el Victoria and Albert Museum, Londres) para un juego de tapices destinado a la Capilla Sixtina (ahora en los Musei Vaticani). Al morir Bramante en 1514 fue tambi\u00E9n nombrado arquitecto del nuevo San Pedro de Roma, y la arquitectura (y la arqueolog\u00EDa) llen\u00F3 progresivamente su tiempo, por lo que tuvo que apoyarse cada vez m\u00E1s en su taller para atender los encargos de su numerosa clientela. Giulio Romano, el principal de sus ayudantes y futuro heredero art\u00EDstico, colabor\u00F3 con \u00E9l en la ejecuci\u00F3n de La Sagrada Familia del roble (Prado) y La Sagrada Familia del cordero (Prado), obras que reflejan la evoluci\u00F3n de su estilo hacia un mayor acabado y el claroscuro intenso que es caracter\u00EDstico de sus \u00FAltimos a\u00F1os (h. 1518-1520). La misma tendencia se observa en obras totalmente aut\u00F3grafas como la peque\u00F1a Sagrada Familia con san Juanito (Prado), que se puede situar hacia 1518. Rafael muri\u00F3 el mismo d\u00EDa en que cumpl\u00EDa treinta y siete a\u00F1os, y su cad\u00E1ver fue velado en el Vaticano al pie de su \u00FAltima obra maestra, La Transfiguraci\u00F3n -de la cual hay una copia de su disc\u00EDpulo Giovan Francesco Penni en el Prado-, antes de recibir sepultura en el Pante\u00F3n de Roma. Fue honrado a su muerte como lo hab\u00EDa sido en vida, y celebrado en incontables paneg\u00EDricos po\u00E9ticos. Vasari, aunque consideraba a Miguel \u00C1ngel como la figura central de sus Vidas de los artistas, le presenta en este libro con suma reverencia como artista ejemplar y modelo santo (en un juego de palabras con el apellido Santi). En los siglos siguientes su fama alcanz\u00F3 dimensiones hagiogr\u00E1ficas, que culminar\u00EDan en el siglo XIX con el culto de los nazarenos y la devoci\u00F3n de artistas como Ingres. Su lugar en el pante\u00F3n de los grandes artistas declin\u00F3 a comienzos del siglo XX, cuando la figura del genio frustrado cobr\u00F3 mayor relieve que la del estudioso consumado, aunque \u00FAltimamente el desarrollo de su estilo personal ha sido objeto de intensa atenci\u00F3n, y la opini\u00F3n general vuelve a admirar en \u00E9l al m\u00E1s grande estudioso-asimilador de su tiempo, algo que ya comentaron sus contempor\u00E1neos, a la vez que reconoce que su extraordinaria trayectoria estil\u00EDstica -muy bien representada en las pinturas del Prado- compendia las conquistas del arte en las dos primeras d\u00E9cadas del siglo XVI (Henry, T. en: E.M.N.P., 2006, tomo V, pp. 1810-1813).</br></br>Su retrato realizado por Henri Joseph Hesse corresponde a la obra G03874 del Museo del Prado."
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p65_E36_shows_visual_item"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "imagenes/Documentos/imgsem/cd/cdc8/cdc843f9-208a-4328-b0cc-44caf979eefa/d5be3abc-e145-49fb-8d24-1ba02b313f57.jpg"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1483"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1483"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Urbino"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Urbino"
+                }
+            }
+        ]
+    }
+}

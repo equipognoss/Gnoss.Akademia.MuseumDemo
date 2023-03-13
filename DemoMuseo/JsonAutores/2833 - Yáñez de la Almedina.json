@@ -1,0 +1,119 @@
+{
+    "head": {
+        "link": [],
+        "vars": ["actor", "p", "valor"]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [{
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/pradomuseum.owl#identifier"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "2833"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "ca. 1536"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1536"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Y\u00E1\u00F1ez de la Almedina, Fernando"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Y\u00E1\u00F1ez de la Almedina, Fernando"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.cidoc-crm.org/cidoc-crm#p3_has_note"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Puede ser considerado, en palabras de El\u00EDas Tormo, como el ''m\u00E1s exquisito pintor del Renacimiento en Espa\u00F1a''. Se le cita por vez primera en unas Relaciones de los pueblos de Espa\u00F1a (1575), en la misma Almedina, como ''licenciado Y\u00E1nez''. Aparece en una relaci\u00F3n de pintores redactada por Hernando de \u00C1vila en su ''Arte de la pintura'', recogido por Diego de Villalta en 1590. En el siglo XVII es citado por Juan de Butr\u00F3n, y posteriormente por Vicente Carducho. En el XVIII, por Palomino, mencionando adem\u00E1s una breve alusi\u00F3n, todav\u00EDa in\u00E9dita, que Quevedo hizo sobre el pintor. En 1800 Ce\u00E1n Berm\u00FAdez lo descubre documentalmente como el autor del retablo de la capilla de los Caballeros de la catedral de Cuenca. Es Justi quien en 1877 ve la relaci\u00F3n entre este retablo y las pinturas de la catedral de Valencia, hallando Roque Chab\u00E1s en 1891 la documentaci\u00F3n del retablo valenciano a nombre de Hernando de Llanos y Hernando Y\u00E1\u00F1ez de la Almedina. Nacido en torno a 1475, la cr\u00EDtica lo relaciona con el ''Ferrando Spagnolo dipintore'' que en 1505 colabora con Leonardo da Vinci en la inconclusa Batalla de Anghiari. Tambi\u00E9n le influyen otros pintores, como Pollaiuolo, Rafael, Filippino Lippi o Perugino, y grabados como los de Durero. Su nombre aparece en referencia al contrato de un retablo para la catedral de Valencia en 1506, dedicado a los santos Cosme y Dami\u00E1n, del que tan solo se conserva una Piedad. Este contrato supuso el inmediato encargo en 1507 del retablo del altar mayor de la misma seo. Se atribuyen a Y\u00E1\u00F1ez obras excepcionales, entre las que destaca Santa Catalina (Prado). Aparece de nuevo documentado en Valencia en 1507 en la iglesia de Santo Tom\u00E1s y posteriormente en la de Santa Catalina. Desde 1510 figura con domicilio en la demarcaci\u00F3n territorial de la parroquia de San Andr\u00E9s. De 1511 a 1514 se le contrata para el dise\u00F1o del \u00F3rgano mayor de la catedral valenciana. Tras su ef\u00EDmero paso por Barcelona, en 1516 regresa a Valencia para hacerse cargo de la decoraci\u00F3n del \u00F3rgano peque\u00F1o de la seo. En 1518-1521 vuelve a su localidad de origen, donde se le cita siempre como ''Hernandia\u00F1ez''. Son de este periodo la tabla de San Dami\u00E1n (Prado) y una Sagrada Familia (colecci\u00F3n Grether, Buenos Aires), firmada ''Hernandia\u00F1ez'' en 1523. Documentado en Cuenca a partir del 1525, se encarga del Retablo de la Crucifixi\u00F3n de la capilla de los Caballeros de la catedral. Y\u00E1\u00F1ez, que tuvo cuatro hijos, aparece documentado en Almedina hasta 1537, dedic\u00E1ndose por completo al desaparecido retablo mayor de su pueblo natal. A esta \u00E9poca debe de pertenecer Santa Ana, la Virgen, santa Isabel, san Juan y Jes\u00FAs ni\u00F1o (Prado). Su estilo \u00FAnico bien merece situarle entre los m\u00E1s grandes de nuestra historia de la pintura del siglo XVI (Gar\u00EDn Llombart, F., Enciclopedia del Museo Nacional del Prado, 2006, tomo VI, pp. 2229-2230)."
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "ca. 1489"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1489"
+                }
+            }
+        ]
+    }
+}

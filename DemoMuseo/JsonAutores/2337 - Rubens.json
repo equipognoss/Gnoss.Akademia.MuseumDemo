@@ -1,0 +1,202 @@
+{
+    "head": {
+        "link": [],
+        "vars": ["actor", "p", "valor"]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [{
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/pradomuseum.owl#identifier"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "2337"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1640"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1640"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Amberes"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Antwerp"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Rubens, Pedro Pablo"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Rubens, Pieter Paul"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.cidoc-crm.org/cidoc-crm#p3_has_note"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Ning\u00FAn pintor europeo del siglo XVII aun\u00F3 como lo hizo Rubens talento art\u00EDstico, \u00E9xito social y econ\u00F3mico y un alto nivel cultural. Aunque su actividad se centr\u00F3 en la pintura, tambi\u00E9n realiz\u00F3 numerosos dise\u00F1os para estampas, tapices, arquitectura, esculturas y objetos decorativos. Su obra, muy abundante, ofrece gran versatilidad tem\u00E1tica, e incluye pinturas de temas mitol\u00F3gicos, religiosos y de historia, retratos y paisajes. Su pintura es grandilocuente, pero tambi\u00E9n sabe ser delicada, y muestra gran habilidad t\u00E9cnica y sensibilidad hacia los ritmos de la composici\u00F3n y la psicolog\u00EDa de los personajes. El \u00E9xito que disfrut\u00F3 Rubens durante su vida se debe tanto a la capacidad de su arte para expresar la nostalgia que sent\u00EDan sus contempor\u00E1neos por la Antig\u00FCedad como a su habilidad para ofrecer a sus coet\u00E1neos una imagen engrandecida de s\u00ED mismos, en un momento en el que los fundamentos de la cultura europea se estaban poniendo en duda. El Museo del Prado posee la mayor y una de las mejores colecciones de pinturas de Rubens, que procede en su pr\u00E1ctica totalidad de la colecci\u00F3n real espa\u00F1ola. Otros conjuntos importantes de su arte se encuentran en el Koninklijk Museum voor Schone Kunsten de Amberes, la National Gallery de Londres, la Alte Pinakothek de M\u00FAnich, el Mus\u00E9e du Louvre de Par\u00EDs y el Kunsthistorisches Museum de Viena. Rubens naci\u00F3 el 28 de junio de 1577 en Siegen, en la provincia alemana de Westfalia, en el seno de una familia flamenca calvinista que hab\u00EDa huido de Amberes debido a la persecuci\u00F3n religiosa. En 1578 la familia Rubens se traslad\u00F3 a Colonia, donde permaneci\u00F3 hasta su vuelta definitiva a Amberes en 1589. Para entonces, la madre de Rubens se hab\u00EDa convertido al catolicismo, religi\u00F3n que el pintor comparti\u00F3 y en cuya causa crey\u00F3 fervientemente. Rubens recibi\u00F3 una educaci\u00F3n inusual para un artista. Su primera instrucci\u00F3n proceder\u00EDa del padre, Jan Rubens, un abogado formado en Roma y Padua. En 1589 el pintor ingres\u00F3 en la escuela del latinista Rombout Verdonk, donde recibi\u00F3 instrucci\u00F3n en ret\u00F3rica y gram\u00E1tica y en lat\u00EDn y griego. Comparti\u00F3 escuela con su hermano mayor, Felipe, que llegar\u00EDa a ser un destacado humanista. En el arte de Rubens, y tambi\u00E9n en su abundante correspondencia, escrita fundamentalmente en italiano, pero tambi\u00E9n en franc\u00E9s, flamenco y lat\u00EDn, hay numerosas muestras de su excelente educaci\u00F3n y del sesgo clasicista y cat\u00F3lico de su formaci\u00F3n. La facilidad con la que se movi\u00F3 durante toda su vida en los ambientes aristocr\u00E1ticos y cortesanos sin duda se vio facilitada por el siguiente paso en su educaci\u00F3n, que tuvo lugar en 1590, cuando entr\u00F3 como paje al servicio de la condesa de Ligne-Arenberg. En esta \u00E9poca su vocaci\u00F3n de pintor ya debi\u00F3 de haberse manifestado, puesto que en 1591, cuando ten\u00EDa catorce a\u00F1os, Rubens ingres\u00F3 como aprendiz en el taller de Tobias Verhaecht, un pintor local especialista en pintura de paisaje. Su maestro m\u00E1s importante fue Otto van Veen, pintor educado en los ideales cl\u00E1sicos de la pintura, que hab\u00EDa vivido varios a\u00F1os en Roma, y que trabajaba como pintor de corte en Bruselas para los gobernadores de los Pa\u00EDses Bajos espa\u00F1oles. Rubens trabaj\u00F3 con \u00E9l a partir de 1594 o 1595, y su trayectoria profesional sirvi\u00F3 de ejemplo al joven pintor. Se conocen muy pocos cuadros de Rubens desde el momento en que se convirti\u00F3 en maestro independiente en 1598 hasta su viaje a Italia en 1600. Parti\u00F3 de Amberes el 9 de mayo de 1600, y al poco tiempo entr\u00F3 al servicio de Vincenzo I Gonzaga, duque de Mantua, como pintor de corte. Su posici\u00F3n en Mantua le permiti\u00F3 vivir de su profesi\u00F3n y adem\u00E1s acceder a las colecciones aristocr\u00E1ticas de distintos lugares de Italia. Rubens dedic\u00F3 sus ocho a\u00F1os de estancia en la pen\u00EDnsula italiana a estudiar el arte del pasado, especialmente la estatuaria griega y romana y tambi\u00E9n los grandes maestros del Renacimiento, como Rafael y Miguel \u00C1ngel. La ciudad que m\u00E1s frecuent\u00F3 durante estos a\u00F1os fue Roma, donde adem\u00E1s obtuvo sus primeros \u00E9xitos profesionales. En 1601-1602 recibi\u00F3 el encargo de pintar tres cuadros de altar para la iglesia de la Santa Cruz de Jerusal\u00E9n (los dos cuadros que se conservan se encuentran actualmente en la Catedral de Nuestra Se\u00F1ora, Grasse). En 1606 recibi\u00F3 el encargo de pintar unos cuadros para el altar de la iglesia de Santa Mar\u00EDa en Vallicella, un encargo que consigui\u00F3 por encima de otros candidatos de la ciudad y que le confirm\u00F3 como uno de los principales pintores de Roma en ese momento. Tambi\u00E9n durante su estancia italiana Rubens realiz\u00F3 un viaje de gran importancia para su relaci\u00F3n con Espa\u00F1a. En 1603 fue elegido para encabezar una embajada enviada por el duque de Mantua a la corte de Felipe III en Valladolid. Permaneci\u00F3 en Espa\u00F1a desde septiembre de 1603 hasta una fecha indeterminada en los primeros meses de 1604, y realiz\u00F3 para el favorito del rey el ''Retrato ecuestre del duque de Lerma'' (Prado), que muestra por primera vez la habilidad del pintor para pintar im\u00E1genes grandilocuentes de los gobernantes de su tiempo. A finales de 1608, y tras recibir noticia de una enfermedad que afectaba a su madre, Rubens regres\u00F3 a los Pa\u00EDses Bajos meridionales. Aunque en un principio la intenci\u00F3n del pintor era regresar a Italia, las \u00ABfacilidades\u00BB que se le presentaron tras llegar a Amberes hicieron que permaneciera en la ciudad, donde residir\u00EDa hasta su muerte. En 1609 los archiduques Alberto de Austria e Isabel Clara Eugenia le nombraron pintor de corte, y le concedieron adem\u00E1s el privilegio de no tener que residir en la corte de Bruselas, sino de poder permanecer en Amberes. El 3 de octubre de 1609 Rubens contrajo matrimonio con Isabella Brant, que pertenec\u00EDa a una familia de la alta burgues\u00EDa local. El bell\u00EDsimo ''Autorretrato con su esposa'' (h. 1609-1610, Alte Pinakothek, M\u00FAnich) y los retratos que realiz\u00F3 de los hijos del matrimonio (Alberto y Nicol\u00E1s Rubens, h. 1626, colecci\u00F3n pr\u00EDncipe de Liechtenstein, Vaduz) muestran a una familia que hab\u00EDa adoptado las costumbres y vestimentas de las clases m\u00E1s privilegiadas. Tras varias d\u00E9cadas de guerra, los Pa\u00EDses Bajos espa\u00F1oles iniciaron un periodo de paz con la firma de una tregua en 1609 entre la monarqu\u00EDa espa\u00F1ola y las Provincias Unidas del Norte, la tregua de los Doce A\u00F1os. La firma del tratado dio paso a un proyecto de reconstrucci\u00F3n nacional del que supo aprovecharse Rubens, contribuyendo con sus pinturas a la decoraci\u00F3n de iglesias y de casas y palacios de la aristocracia y la alta burgues\u00EDa. En 1609 la ciudad de Amberes le encarg\u00F3 el gran cuadro de ''La Adoraci\u00F3n de los Magos'' (Prado), que se utiliz\u00F3 para decorar el Ayuntamiento durante la firma de la tregua de los Doce A\u00F1os. Posteriormente este cuadro entrar\u00EDa a formar parte de la colecci\u00F3n de Felipe IV, y en 1628-1629 el pintor lo retocar\u00EDa y ampliar\u00EDa con el permiso del Rey, incluyendo en \u00E9l su propio autorretrato. En los primeros a\u00F1os tras su regreso a Amberes, pint\u00F3 algunos de los cuadros de altar m\u00E1s espectaculares que jam\u00E1s se hayan realizado, como ''La elevaci\u00F3n de la Cruz'' (1610-1611, Catedral de Amberes) y ''El Descendimiento'' (1611-1614, Catedral de Amberes), y convirti\u00F3 su estudio en el m\u00E1s importante de la ciudad, educando a numerosos pintores y contratando a j\u00F3venes artistas de la talla de Van Dyck, quien ingres\u00F3 en su taller como ayudante en 1616. Estos son tambi\u00E9n los a\u00F1os en los que Rubens colabora con otros destacados pintores flamencos, como Frans Snyders, con quien pinta, entre otros cuadros, ''Filopomenes descubierto'' (Prado) y ''Prometeo'' (h. 1612, Philadelphia Museum of Art) y sobre todo Jan Brueghel de Velours, en cuyos cuadros Rubens inserta peque\u00F1as figuras realizadas con gran delicadeza, como sucede en la Serie de los Cinco Sentidos (1617-1618, Prado), o en algunas guirnaldas en las que Rubens pinta las figuras de la Virgen, el Ni\u00F1o y los \u00E1ngeles (Mus\u00E9e du Louvre, Par\u00EDs, y Prado). El enorme \u00E9xito que llega a disfrutar en Amberes lo demuestra tambi\u00E9n el encargo que recibe en 1620 para decorar la iglesia de los jesuitas de Amberes con treinta y nueve lienzos que se colocar\u00EDan en los techos de las naves laterales (destruidos en 1718). El tama\u00F1o y la organizaci\u00F3n del taller de Rubens hacen posible su dedicaci\u00F3n a este y otros numerosos proyectos de gran envergadura. Parte del \u00E9xito del pintor en estos a\u00F1os se debe al patrocinio que recibe de los Archiduques. En 1621 muere el archiduque Alberto y Rubens estrecha su v\u00EDnculo con la infanta viuda, que continuar\u00E1 gobernando los Pa\u00EDses Bajos espa\u00F1oles hasta su muerte en 1633 en nombre de su sobrino el rey Felipe IV. Las consecuencias art\u00EDsticas de la relaci\u00F3n entre Rubens y la infanta son importantes. Es posible que la mediaci\u00F3n de la infanta influyese en el encargo que recibi\u00F3 en 1621 para decorar el Palacio de Luxemburgo en Par\u00EDs, residencia de la reina madre de Francia, Mar\u00EDa de M\u00E9dicis. En 1625 o 1626 la infanta Isabel Clara Eugenia encarg\u00F3 al pintor que dise\u00F1ase veinte grandes tapices para el convento de las Descalzas Reales de Madrid, donde ella hab\u00EDa pasado algunos periodos de tiempo durante su infancia y donde a\u00FAn se conservan los tapices. Algunos de los modelos realizados por el pintor en preparaci\u00F3n para este proyecto llegar\u00EDan a Madrid a\u00F1os m\u00E1s tarde y se encuentran actualmente en el Museo del Prado. El patrocinio de la infanta continuar\u00EDa produciendo importantes obras de arte, como el ''Tr\u00EDptico de San Ildefonso'' (Kunsthistorisches Museum, Viena), encargado hacia 1630 para decorar una capilla en la iglesia de la corte de Bruselas, San Jacobo de Coudenberg. Como agente al servicio de Isabel Clara Eugenia, Rubens se vio involucrado tambi\u00E9n en una serie de negociaciones diplom\u00E1ticas destinadas a la firma de un tratado de paz entre Espa\u00F1a y los Pa\u00EDses Bajos. En 1628 el rey Felipe IV llam\u00F3 al pintor a Madrid para recibir informaci\u00F3n sobre el estado de las negociaciones. Con este motivo el pintor se traslad\u00F3 a la capital espa\u00F1ola en agosto de 1628, y permaneci\u00F3 en la ciudad hasta abril de 1629. Su actividad en Madrid fue febril, tanto que el pintor y tratadista Francisco Pacheco (cuya informaci\u00F3n proced\u00EDa de su yerno Vel\u00E1zquez, con quien Rubens seguramente comparti\u00F3 estudio en el Alc\u00E1zar de Madrid) escribi\u00F3 en su libro ''Arte de la pintura'': \u00ABParece cosa incre\u00EDble haber pintado tanto en tan poco tiempo\u00BB. Rubens realiz\u00F3 en torno a cuarenta cuadros durante su estancia en Madrid, algunos por encargo del rey, otros para la infanta Isabel Clara Eugenia y otros para s\u00ED mismo, como las numerosas copias que hizo de los cuadros de Tiziano que pertenec\u00EDan a la colecci\u00F3n real. De entre todos estos cuadros destaca por su significaci\u00F3n hist\u00F3rica el Retrato ecuestre de Felipe IV, que se ha perdido (existe una copia en Galleria degli Uffizi, Florencia). Se trata de una imagen del rey rodeado de figuras aleg\u00F3ricas que ensalzan su papel como monarca defensor del catolicismo. Tras su finalizaci\u00F3n, este cuadro se instal\u00F3 en el sal\u00F3n m\u00E1s representativo del Alc\u00E1zar de Madrid en sustituci\u00F3n de otro retrato ecuestre pintado unos a\u00F1os antes por el joven Vel\u00E1zquez, pintor de corte de Felipe V. Este gesto encumbraba a Rubens como pintor favorito del rey espa\u00F1ol, preferencia que confirmar\u00EDan los numerosos encargos que el pintor recibir\u00EDa del Rey en la d\u00E9cada de 1630. Tras su visita a Madrid, Rubens se traslad\u00F3 a Londres (1629-1630) y m\u00E1s tarde a La Haya (1631), para continuar sus negociaciones a favor de la paz. En Londres recibi\u00F3 el encargo de decorar el Banqueting House, un gran sal\u00F3n que formaba parte del complejo palacial de Whitehall, y para el rey Carlos I realiz\u00F3 tambi\u00E9n una de sus alegor\u00EDas pol\u00EDticas m\u00E1s conocidas, ''Alegor\u00EDa de la Paz'' (National Gallery, Londres). Rubens contrajo matrimonio por segunda vez en 1630 (hab\u00EDa enviudado en 1626) con Helena Fourment, una bella joven de diecis\u00E9is a\u00F1os que se convirti\u00F3 en su principal fuente de inspiraci\u00F3n en la \u00FAltima d\u00E9cada de su vida. No solo pintar\u00EDa varios retratos de ella (''Helena Fourment sentada en una terraza'', h. 1630-1631, Alte Pinakothek, M\u00FAnich), sino que adem\u00E1s se inspir\u00F3 en sus rasgos para definir el tipo de figura femenina que puebla la mayor parte de los cuadros de estos a\u00F1os, ya sean de tema mitol\u00F3gico, como sucede en ''El juicio de Paris'' que Rubens pint\u00F3 por encargo de Felipe IV (Prado) o de tema religioso, como ocurre en ''La coronaci\u00F3n de Santa Catalina'' (1631, Toledo Museum of Art, Toledo, Ohio). Durante los \u00FAltimos a\u00F1os de su vida, Rubens recibi\u00F3 numerosos encargos de Felipe IV. Entre 1636 y 1638 dise\u00F1\u00F3 para la Torre de la Parada, un pabell\u00F3n de caza del Rey, unas sesenta escenas en su mayor\u00EDa mitol\u00F3gicas, y entre 1638 y 1640 pint\u00F3 para el Rey un total de veintid\u00F3s cuadros mitol\u00F3gicos destinados a decorar el Alc\u00E1zar (la mayor parte de los cuadros que se conservan de estos encargos pertenecen al Prado). En todas estas obras se observa la influencia que la pintura de Tiziano tuvo sobre el estilo de Rubens en esta \u00E9poca, que se manifiesta en una forma de pintar en la que la libertad de factura prima por encima de la precisi\u00F3n dibuj\u00EDstica. Rubens hab\u00EDa pintado paisajes a lo largo de toda su carrera, pero dedic\u00F3 especial esfuerzo a este g\u00E9nero en la d\u00E9cada de 1630. Obras como ''Paisaje con arco iris'' (h. 1636, Wallace Collection, Londres) y ''Paisaje con Het Steen'' (h. 1636, National Gallery, Londres), demuestran el amor del pintor por el campo y su profunda sinton\u00EDa con la vitalidad y los ritmos de la naturaleza. En el momento de su muerte, acaecida el 30 de mayo de 1640, numerosos cuadros se encontraban en su estudio, algunos de ellos seguramente obras de encargo a\u00FAn sin terminar, y otras, m\u00E1s personales, realizadas por Rubens sin la intenci\u00F3n de venderlas. Entre \u00E9stas se encuentran algunas de las obras m\u00E1s bellas del pintor que pertenecen al Museo, como ''Las tres Gracias'', que seguramente fue adquirida por Felipe IV a los herederos del artista. Adem\u00E1s de pinturas, la producci\u00F3n de Rubens incluye tambi\u00E9n cientos de dibujos y de bocetos, que utilizaba para preparar sus cuadros y que nos permiten apreciar su extraordinario talento art\u00EDstico. Tambi\u00E9n realiz\u00F3 numerosos dise\u00F1os para estampas y contrat\u00F3 y control\u00F3 cuidadosamente a los artistas que se encargaban de grabar sus dise\u00F1os, preocup\u00E1ndose tambi\u00E9n por obtener los derechos de reproducci\u00F3n de sus estampas, un ejemplo del riguroso control que ejerci\u00F3 sobre los aspectos econ\u00F3micos de su actividad. Rubens fue ennoblecido por Felipe IV y por Carlos I. Su \u00E9xito en las grandes cortes de Europa y su elevado estatus social contribuyeron, tanto como su talento art\u00EDstico, a convertirle en un pintor de gran influencia (Vergara, A. en Enciclopedia M.N.P., 2006, VI, pp. 1918-1925).</br></br>Su autorretrato se inserta en 'La adoraci\u00F3n de los Magos' que corresponde a la obra P1638 del Museo del Prado."
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.cidoc-crm.org/cidoc-crm#p3_has_note"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "No other 17th-century European painter combined artistic talent, social and economic success and a high cultural level like Rubens. Though primarily a painter, he also made numerous designs for prints, tapestries, architecture, sculpture and decorative objects. His abundant work is strikingly versatile in its subject matter, including paintings on mythological, religious and historical subjects as well as portraits and landscapes. His painting is grandiloquent, but he also knew how to be delicate, and his work reveals enormous technical skill and sensitivity to compositional considerations and to the psychology of his personages. Rubens\u2019 success during his lifetime was due to both his art\u2019s capacity to evoke a nostalgia for Antiquity that he shared with his contemporaries, and his skill a offering them an aggrandized image of themselves at a time when the fundaments of European culture were being actively questioned. The Museo del Prado has the largest collection of Rubens\u2019 paintings, and one of the finest as well, and almost all of it comes from Spain\u2019s royal collections. There are also Important groups of his works at the Koninklijk Museum voor Schone Kunsten in Antwerp, the National Gallery of London, the Alte Pinakothek in Munich, the Mus\u00E9e du Louvre in Paris and the Kunsthistorisches Museum of Vienna. Rubens was born on June 28, 1577 in Siegen, in the German province of Westfalia, where his Cavinist Flemish family had fled to escape religious persecution in Antwerp. In 1578, they moved to Cologne, where the artist lived until his definitive return to Antwerp in 1589. By then, Rubens\u2019 mother had converted to Catholicism, which he shared as a fervent believer in the Church\u2019s cause. For an artist, he had an unusual education. He began learning from his father, Jan Rubens, a lawyer who had studied in Rome and Padua. In 1589, he entered the school of Latinist Rombout Verdonk, where he was trained in Latin and Greek rhetoric and grammar. His elder brother, Phillip, attended the same school and later became an outstanding humanist. The excellence of this education and its classicist and Catholic orientation are clearly visible in Rubens\u2019 abundant correspondence\u2014fundamentally in Italian, but also in French, Flemish and Latin. The ease with which he moved in aristocratic and courtly circles throughout his life was undoubtedly facilitated by all he learned as page to the countess of Ligne-Arenberg, a job he began in 1590. He must already have begun painting by then, as he entered the workshop of local landscape painter Tobias Verhaecht as an apprentice the following year. His most important teacher, however, was Otto van Veen, a painter educated in the classical ideals who had lived in Rome for several years and worked as a court painter for the Spanish governors of the Netherlands in Brussels. Rubens began working with him in 1594 or 1595, and this elder painter\u2019s professional career set an example for the younger artist. Little is known of Rubens\u2019 paintings between his establishment as an independent master in 1598 and his trip to Italy in 1600. He left Antwerp on May 9, 1600 and soon entered the service of Vincenzo I Gonzaga, Duke of Mantua, as a court painter. His position in Mantua made it possible for him to live from his work, and it also provided him access to aristocratic collections in different parts of Italy. Rubens dedicated his eight years on the Italian peninsula to an intense study of the arts of the past, especially Greek and Roman statuary and great masters of the Renaissance, such as Raphael and Michelangelo. The city he most frequented in those years was Rome, where he also had his first professional successes. In 1601-1602, he was commissioned to make three altarpiece paintings for the church of Santa Croce in Gerusalemme (the two surviving paintings are now at the Cathedral of Notre Dame in Grasse). In 1606 he was commissioned to paint canvases for the altar at the Roman church of Santa Maria in Vallicella. This commission, which he received despite competition from other candidates in Rome, confirmed his standing as one of that city\u2019s leading painters at that time. During his stay in Italy Rubens also made a trip of considerable import for his relations with Spain. In 1603 the Duke of Mantua chose him as an ambassadorial envoy to the court of Philip III in Valladolid. He remained in Spain from September 1603 through some time in the early months of 1604, and during that time, he made an Equestrian Portrait of the Duke of Lerma (Museo del Prado) for the king\u2019s favorite. This work is the first example of his skill at painting grandiloquent images of his period\u2019s rulers. In late 1608, however, news of his mother\u2019s illness led Rubens to return to the southern Netherlands, and while he initially intended to return from there to Italy, the \u201Cfacilities\u201D he encountered in Anwerp led him to remain there, making it his home for the rest of his life. In 1609,  Albert VII, Archduke of Austria and Archduchess Isabella Clara of Austria appointed him court painter and they further conceded him the privilege of not having to reside at court in Brussels, which allowed him to remain in Antwerp. On October 3, 1609, Rubens marred Isabella Brant, who belonged to a local high bourgeois family. His beautiful Self Portrait with his Wife (ca. 1609-1610, Alte Pinakothek, Munich) and his portraits of his sons by her (Albert and Nikolas Rubens, ca. 1626, Prince of Liechtenstein Collection, Vaduz) show a family that had adopted the customs and clothing of the most privileged classes. After several decades of war, the Spanish Netherlands began a period of peace in 1609 when the Spanish Monarchy and the United Provinces of the North signed the Twelve Years Truce. That truce led to a national reconstruction that proved advantageous to Rubens, as he began making paintings to decorate churches and the homes and palaces of the aristocracy and high bourgeoisie. In 1609, the city of Antwerp commissioned him to paint the large Adoration of the Magi (Museo del Prado), with was used to decorate the City Hall during the signing of the Twelve Years Truce. It later became a part of King Philip IV\u2019s collection, and in 1628-1629, with the king\u2019s permission, Rubens expanded and retouched it, adding his own self-portrait. In the first years after his return to Antwerp he painted some of the most spectacular altarpiece works ever made, including The Elevation of the Cross (1610-1611, Antwerp Cathedral) and Descent from the Cross (1611-1614, Antwerp Cathedral). At that time, his studio became the most important one in the city, educating numerous painters and contracting excellent young artists such as Van Dyck, who entered his workshop as an assistant in 1616. That was also a period when Rubens collaborated with other outstanding Flemish painters, including Frans Snyders, with whom he painted The Recognition of Phililpoemen (Museo del Prado) and Prometheus (ca. 1612, Philadelphia Museum of Art), among other works. Most of all, however, he collaborated with Jan Brueghel de Velours, in whose paintings he inserted small, delicately rendered figures of the sort that appear in the Five Senses series (1617-1618, Museo del Prado) and on garlands where Rubens painted the figures of the Virgin, the Christ Child and the angels (Mus\u00E9e du Louvre, Paris; Museo del Prado). His enormous success in Antwerp is also exemplified by a commission in 1620 to decorate the Jesuit church in Antwerp with thirty-nine canvases to be affixed to the ceilings of the lateral naves (destroyed in 1718). The size and organization of Rubens\u2019 workshop allowed him to carry out this and numerous other large projects. Part of his success in those years was due to the patronage he received from the Archduke and Duchess. In 1621, Archduke Albert died and Rubens grew closer to his widow, the infanta Isabella, who continued to govern the Spanish Netherlands in the name of her nephew, King Philip IV, until her death in 1633. The artistic consequences of Rubens\u2019 relation with Isabella are significant. She may have been instrumental in his commission to decorate the Luxembourg Palace in Paris, where Maria of Medicis, Queen Mother of France, resided. In 1625 or 1616, the infanta Isabella Clara Eugenia commissioned him to design twenty large tapestries for the convent of the Descalzas Reales in Madrid, where she had spent some parts of her infancy. The tapestries remain there today. Some of the models that the painter made in preparation for this project arrived in Madrid years later, and are now at the Museo del Prado. The infanta\u2019s patronage continued to produce important artworks, including the Saint Ildephonsus Triptych (Kunsthistorisches Museum, Vienna), which was commissioned around 1630 to decorate a chapel at Saint Jacob of Coudenberg, the court church in Brussels. As Isabel Clara Eugenia\u2019s agent, Rubens also found himself involved in a series of diplomatic negotiations aimed at the signing of a peace treaty between Spain and the Netherlands. In 1628, King Philip IV called the painter to Madrid for a briefing on the state of the negotiations. He arrived in August, 1628, and remained until April, 1629. While there, Rubens probably shared a studio at the Alc\u00E1zar with Vel\u00E1zquez, whose father-in-law, the painter and treatise writer Francisco Pachecho, later described the Flemish artist\u2019s feverish activity in his book, The Art of Painting: \u201CIt seems incredible that he could have painted so much in so little time.\u201D And indeed, during his stay in Madrid, Rubens painted around forty works\u2014some at the behest of the king, others for the infanta Isabella Clara Eugenia, and others for himself, including numerous copies of Titian\u2019s paintings in the royal collection. Of them all, one stands out for its historical significance. Now lost (there is a copy at the Galleria degli Uffizi in Florence), this Equestrian Portrait of Philip IV presented an image of the king surrounded by allegorical figures that extolled his role as a monarchical defender of Catholicism. When completed, this painting was hung in the Alc\u00E1zar\u2019s most representative hall, replacing an equestrian portrait painted a few years earlier by young Vel\u00E1zquez, who was Philip V\u2019s court painter. This act marked Rubens as the Spanish king\u2019s favorite painter, and that preference was confirmed by numerous commissions he received from the king over the course of the 1630s. At the end of his stay in Madrid, Rubens visited London (1629-1630) and later, The Hague (1631), to continue suing for peace. In London, he was commissioned to decorate The Banqueting House, a large hall belonging to the palatial Whitehall complex. He also painted one of his best-known political allegories for England\u2019s King Charles I: Allegory of Peace (National Gallery, London). Rubens\u2019 first wife had died in 1626, and 1630 he married Helena Fourment, a beautiful young woman of sixteen who became his main source of inspiration during the last decade of his life. He painted various portraits of her (Helena Fourment Seated on a Terrace, ca. 1630-1631, Alte Pinakothek, Munich), and he also drew on her features to define the type of female figure found in most of his paintings from those years, including mythological works such as The Judgment of Paris, which Rubens painted at the behest of Philip IV (Museo del Prado), and religious images, including The Coronation of Saint Catherine (1631, Toledo Museum of Art, Toledo, Ohio). During the final years of his life, Rubens received numerous commissions from Philip IV. Between 1636 and 1638 he made some sixty scenes, mostly mythological, for the king\u2019s Torre de la Parada hunting lodge; and between 1638 and 1640, he painted twenty-two mythological scenes for the monarch\u2019s Alcazar Palace in Madrid (most of the surviving works from this series are at the Museo del Prado). All of these works show the influence that Titian had on Rubens\u2019 style during that period: an approach that gives more importance to a free rendering of the image than to its precise delineation. Rubens had always painted landscapes, but he made particular efforts in this genre during the 1630s. Works such as Landscape with Rainbow (ca.1636, Wallace Collection, London) and Landscape with Het Steen (ca. 1635, National Gallery, London) transmit the artist\u2019s love of the countryside and his profound attunement to the vitality and rhythms of Nature. When he died, on May 30, 1640, there were numerous paintings in his studio. Some were probably unfinished commissions, but others were more personal, and had been made by Rubens with no intention of selling them. This latter group includes one of the most beautiful of his works at the Museo del Prado, The Three Graces, which was almost certainly acquired by Philip IV from the artist\u2019s heirs. Besides his paintings, Rubens also made hundreds of drawings and sketches, which he used to prepare his paintings. These works allow us to appreciate his extraordinary artistic talent. He also made numerous drawings for prints and he contracted and carefully supervised the artists charged with engraving his designs. Moreover, his concern for obtaining the copyrights to his prints exemplifies his rigorous control of the economic aspects of his work. Rubens was knighted by both Philip IV of Spain and Charles I of England. His success in the major European courts and his high social standing were as important as his artistic talent in making him a very influential painter (Vergara, A. in Enciclopedia M.N.P., 2006, VI, pp. 1918-1925).<br /><br />His self portrait is included in ''The Adoration of the Magi'' (Museo del Prado P1638)."
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p65_E36_shows_visual_item"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "imagenes/Documentos/imgsem/09/099c/099c7adf-d261-4e54-8a3b-7807500ca539/33586d1a-3ac8-4c74-a974-c4963b90dd5a.jpg"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1577"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1577"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Siegen, Westfalia"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Siegen, Westphalia"
+                }
+            }
+        ]
+    }
+}

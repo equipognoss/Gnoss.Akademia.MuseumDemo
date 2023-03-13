@@ -1,0 +1,202 @@
+{
+    "head": {
+        "link": [],
+        "vars": ["actor", "p", "valor"]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [{
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/pradomuseum.owl#identifier"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "2513"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "10.8.1923"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1923"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Cercedilla, Madrid"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Cercedilla, Madrid"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Sorolla y Bastida, Joaqu\u00EDn"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Sorolla y Bastida, Joaqu\u00EDn"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.cidoc-crm.org/cidoc-crm#p3_has_note"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Following early training with sculptor Cayetano Capuz, he began studies at the Academy of San Carlos in Valencia in 1878. There, his teachers, Gonzalo Salv\u00E1 (1845-1923) and Ignacio Pinazo, introduced him to ''plein air'' painting. In the early 1880s, he traveled to Madrid and studied the works of Vel\u00E1zquez and Ribera at the Museo del Prado. In 1884, he participated in the National Exhibition of Fine Arts with ''The Second of May'' (P6740), which marked his first success, despite being a very early work. Soon thereafter, a stipend from the Regional Government of Valencia allowed him to travel to Rome and then Paris. In 1888, having returned to Valencia, he married Clotilde Garc\u00EDa del Castillo, the daughter of renowned Valencian photographer Antonio Garc\u00EDa. Two years later, they moved to Madrid, where Sorolla was in contact with painter Jos\u00E9 Jim\u00E9nez Aranda. In 1892, his moving painting, Another Daisy (Saint Louis, Missouri, Washington Univeresity Gallery of Art) received first prize at the National Exhibition, and the following year it won the only prize at the Chicago World\u2019s Fair. From then until 1900, Sorolla received numerous awards, including the Grand Prix of Paris and the Medal of Honor at the 1900 National Exhibition in Madrid. Most of these were for paintings that sought to offer a realistic perspective on bourgeois life and mores, often based on maritime labors in his native Valencia. A fine example is ''And They Still Say that Fish is Expensive!'' By then, he was in contact with foreign artists, including Jules Bastien Lepage (1848-1884), Adolf Menzel (1815-1895) and various Scandinavian painters, and his own work focused increasingly on capturing natural light. At the very beginning of the 20th century, his previous successes and, perhaps, the influence of his close friend, landscape painter Aureliano de Beruete, encouraged him to travel throughout Spain. A stay in the southern regions was decisive in those early travels, as his palette expanded to convey the landscapes and Moorish gardens of Granada and Seville, as well as scenes from the beaches of Spain\u2019s east coast, including Boys on the Beach. The year 1906 marked the beginning of international success, beginning with an exhibition at the Georges\u2019 Petit Galleries in Paris. The following year, he traveled to Germany, and the year after that, to London. In 1909, Archer M. Huntington (1870-1955) arranged for him to show his work in New York, where it was critically acclaimed and equally well received by collectors. Two years later, Huntington commissioned him to paint monumental murals at the Hispanic Society in that city. These works were supposed to depict the people and villages in different parts of Spain according to their regional characteristics, which obliged the painter to travel throughout the country in search of folkloric prototypes for his images. At the end of this exhausting art project, Sorolla made some of his most interesting paintings, including The Siesta (Madrid, Museo Sorolla) and numerous views of the gardens at his home in Madrid, which is now the Sorolla Museum (G. Navarro, C. in: ''El siglo XIX en el Prado'', Museo Nacional del Prado, 2007, p. 487).<br /><br />His portrait by Jos\u00E9 Jim\u00E9nez Aranda at the Museo del Prado is catalogued as P04354."
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.cidoc-crm.org/cidoc-crm#p3_has_note"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Formado en sus a\u00F1os m\u00E1s tempranos con el escultor Cayetano Capuz, estudi\u00F3 desde 1878 en la Academia de San Carlos de Valencia, donde sus maestros Gonzalo Salv\u00E1 (1845-1923) e Ignacio Pinazo le introdujeron en la pintura al aire libre. Al comienzo de los a\u00F1os ochenta viaj\u00F3 a Madrid y estudi\u00F3 la obra de Vel\u00E1zquez y de Ribera en el Museo del Prado. En 1884 particip\u00F3 en la Exposici\u00F3n Nacional de Bellas Artes con ''El dos de mayo'' (P6740), con el que cosech\u00F3 sus primeros \u00E9xitos, a pesar de lo temprano de la obra. Pensionado poco despu\u00E9s por la Diputaci\u00F3n de Valencia, viaj\u00F3 a Roma y a continuaci\u00F3n a Par\u00EDs. En 1888 cas\u00F3 en Valencia con Clotilde Garc\u00EDa del Castillo, hija de un reputado fot\u00F3grafo valenciano Antonio Garc\u00EDa, y se instal\u00F3 en Madrid dos a\u00F1os despu\u00E9s, donde estuvo en contacto con el pintor Jos\u00E9 Jim\u00E9nez Aranda. En 1892 su estremecedora pintura ''Otra margarita'' (Saint Louis, Missouri, Washington University Gallery of Art) recibi\u00F3 la primera medalla de la Nacional de ese a\u00F1o y el premio \u00FAnico de la Internacional de Chicago del a\u00F1o siguiente. Hasta 1900, Sorolla acumul\u00F3 un gran n\u00FAmero de galardones, entre los que destaca el grand prix de Par\u00EDs y la medalla de honor de la Nacional de Madrid de ese a\u00F1o, La mayor\u00EDa de esos premios los obtuvo por pinturas que tratan de ofrecer una perspectiva realista al costumbrismo burgu\u00E9s, inspirado muchas veces en las labores marineras de su tierra natal, como en ''\u00A1A\u00FAn dicen que el pescado es caro''. En esos a\u00F1os, en los que hab\u00EDa entrado en contacto con la obra de pintores extranjeros como Jules Bastien Lepage (1848-1884), Adolf Menzel (1815-1895) y varios pintores escandinavos, cobra cada vez m\u00E1s importancia en la pintura de Sorolla la preocupaci\u00F3n por la captaci\u00F3n de la luz natural. En los primeros a\u00F1os del siglo XX, respaldado por los \u00E9xitos que hab\u00EDa acumulado ya, y quiz\u00E1 tambi\u00E9n debido a la influencia de su gran amigo el paisajista Aureliano de Beruete, se dedic\u00F3 a viajar por toda Espa\u00F1a. En estos primeros viajes fue determinante su estancia en el sur del pa\u00EDs, donde su paleta se enriquecer\u00EDa pintando los paisajes y jardines \u00E1rabes de Granada y Sevilla, as\u00ED como escenas de la playa levantina, como ''Chicos en la playa''. En 1906 despeg\u00F3 su carrera comercial a nivel internacional, pues expuso en las galer\u00EDas Georges Petit de Par\u00EDs. Un a\u00F1o despu\u00E9s viaj\u00F3 a Alemania, y el siguiente a Londres. En 1909, por invitaci\u00F3n de Archer M. Huntington (1870-1955), expuso en Nueva York, donde el \u00E9xito de su obra fue arrollador, las cr\u00EDticas muy favorables y el mercado reaccion\u00F3 con gran entusiasmo. Dos a\u00F1os despu\u00E9s Huntington le encarg\u00F3 la monumental decoraci\u00F3n mural para la Hispanic Society de esa ciudad, en la que deb\u00EDa reflejar las gentes y pueblos de Espa\u00F1a, seg\u00FAn sus caracter\u00EDsticas regionales, lo que oblig\u00F3 al pintor a viajar por todo el pa\u00EDs captando prototipos folcl\u00F3ricos para su obra. Al t\u00E9rmino de ese extenuante proyecto art\u00EDstico, Sorolla todav\u00EDa realizar\u00EDa algunas de sus pinturas m\u00E1s interesantes como ''La siesta'' (Madrid, Museo Sorolla), as\u00ED como las numerosas vistas del jard\u00EDn de su casa madrile\u00F1a, hoy convertida en el museo que lleva su nombre (G. Navarro, C. en: El siglo XIX en el Prado, Museo Nacional del Prado, 2007, p. 487).</br></br>Su retrato realizado por Jos\u00E9 Jim\u00E9nez Aranda corresponde a la obra P04354 del Museo del Prado."
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p65_E36_shows_visual_item"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "imagenes/Documentos/imgsem/06/06fc/06fcd1dd-8983-45be-9e60-6adc32f513e4/1d85ff4a-ff5a-468e-9254-8b24c55c67ea.jpg"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "27.2.1863"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1863"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Valencia"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Valencia"
+                }
+            }
+        ]
+    }
+}

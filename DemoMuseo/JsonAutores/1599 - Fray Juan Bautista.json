@@ -1,0 +1,189 @@
+{
+    "head": {
+        "link": [],
+        "vars": ["actor", "p", "valor"]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [{
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/pradomuseum.owl#identifier"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1599"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1649"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1649"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Madrid"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Madrid"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Ma\u00EDno, Fray Juan Bautista"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Ma\u00EDno, Fray Juan Bautista"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.cidoc-crm.org/cidoc-crm#p3_has_note"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Juan Bautista Ma\u00EDno es uno de los maestros m\u00E1s desconocidos de la pintura espa\u00F1ola. Aunque Lope de Vega, Francisco Pacheco, Jusepe Mart\u00EDnez o Antonio Palomino mostraron gran admiraci\u00F3n tanto por su persona como por su pintura, hasta la fecha no se han desarrollado importantes estudios sobre la figura de Ma\u00EDno. Por otro lado, el hecho de que tras su ingreso en la orden dominica en 1613 relegara a un segundo plano su trabajo art\u00EDstico ha propiciado que su producci\u00F3n quede reducida a unas cuarenta obras. </br>A pesar de que fue profesor de dibujo del futuro Felipe IV, de quien siempre encontr\u00F3 reconocimiento y respeto a prop\u00F3sito de sus juicios art\u00EDsticos, la concreci\u00F3n biogr\u00E1fica de Ma\u00EDno ha permanecido tan difusa que ni siquiera su nacimiento en Espa\u00F1a pudo concretarse hasta 1958. </br>En la actualidad, se sabe que el pintor naci\u00F3 la villa alcarre\u00F1a de Pastrana en 1581, hijo del matrimonio formado por un comerciante de origen milan\u00E9s llamado como el pintor, y la lisboeta Ana de Figueredo. Pas\u00F3 su adolescencia en Madrid y, en una fecha imprecisa pero que suponemos hacia finales del siglo XVI, pas\u00F3 a Italia, donde tendr\u00EDa una decisiva formaci\u00F3n pict\u00F3rica vinculada a las dos grandes corrientes generadas en la Roma de hacia 1600: el revolucionario naturalismo de Caravaggio y la revisi\u00F3n del clasicismo italiano de Annibale Carracci y la escuela bolo\u00F1esa. Ma\u00EDno vivi\u00F3 en primera persona toda esa confluencia de aportes y estilos, y as\u00ED lo manifiesta su pintura, caracterizada por un dibujo vigoroso y descriptivo, la monumentalidad escult\u00F3rica de sus figuras, trazadas con una iluminaci\u00F3n contrastada e intensa y un colorido vivo y saturado, con profusi\u00F3n de amarillos, ocres, azules cobaltos y bermellones. Trabaj\u00F3 en diversos soportes y dimensiones, destacando como retratista pero tambi\u00E9n como paisajista, un g\u00E9nero del que nos ha dejado unos pocos ejemplos donde confluyen la po\u00E9tica clasicista y una minuciosa descripci\u00F3n bot\u00E1nica muy cercana a los paisajistas flamencos (Ruiz, L.: Juan Bautista Ma\u00EDno: 1581-1649, Museo Nacional del Prado, 2009)."
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.cidoc-crm.org/cidoc-crm#p3_has_note"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "One of the most unknown masters of Spanish painting. Although Lope de Vega, Francisco Pacheco, Jusepe Mart\u00EDnez and Antonio Palomino all expressed great admiration for Maino, as both a person and as a painter, he has yet to be fully studied. Moreover, the fact that he produced considerably less art after he became a Dominican friar signifies that only about forty pieces by him are known today.<br />Maino is known to have taught drawing to the future king Philip IV, who always expressed his appreciation and respect for his former instructor\u2019s artistic judgment. But little else is known about him. Indeed, the fact that he was born in Spain was not even established until 1958.<br />We now know that he was born in 1581 in Pastrana, Alcarria, to a Milanese merchant of the same name and a native of Lisbon named Ana de Figueredo. He spent his adolescence in Madrid before moving to Italy, probably around the end of the 16th century. There, he received a solid grounding in the two leading pictorial movements that held sway in Rome around 1600: the revolutionary naturalist painting of the Caravaggio school, and the revision of Italian classicism associated with Annibale Carracci and the Bolognese school. Ma\u00EDno\u2019s direct involvement with this merging of contributions and styles is evident in specific aspects of his work: the sculptural monumentality of figures rendered with intense, contrasting lighting, and vivid, saturated colors rich in yellows, ochers, cobalt blues and vermilions. He employed various supports and dimensions and stood out for both his portraits and his landscapes. His few surviving works in the latter genre combine a classicist poetic with meticulous botanical detail quite close to the work of Flemish landscape painters (Ruiz, L.: Juan Bautista Ma\u00EDno: 1581-1649, Museo Nacional del Prado, 2009)."
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1581"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1581"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Pastrana, Guadalajara"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Pastrana, Guadalajara"
+                }
+            }
+        ]
+    }
+}

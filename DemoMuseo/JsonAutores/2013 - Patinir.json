@@ -1,0 +1,189 @@
+{
+    "head": {
+        "link": [],
+        "vars": ["actor", "p", "valor"]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [{
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/pradomuseum.owl#identifier"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "2013"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1524"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1524"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Amberes"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Antwerp"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Patinir, Joachim"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Patinir, Joachim"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.cidoc-crm.org/cidoc-crm#p3_has_note"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Nacido a las orillas del Mosa, es considerado como el primer paisajista flamenco. Sus amplios paisajes, muy caracter\u00EDsticos, presentan horizontes altos con extensas campi\u00F1as en las que destacan macizos de rocas puntiagudas, de car\u00E1cter fant\u00E1stico, mezcl\u00E1ndose lo real y lo simb\u00F3lico. Sus temas son un mero pretexto para desarrollar el paisaje que se convierte en el protagonista principal de sus composiciones. Se piensa que pudo trabajar primero en Brujas, en donde conoci\u00F3 la obra de G\u00E9rard David y en 1515, al igual que \u00E9ste, aparece citado como maestro en Amberes. Fue precisamente en esta ciudad donde conoci\u00F3 a Alberto Durero, durante su viaje por los Pa\u00EDses Bajos (1520-1521) y se inici\u00F3 su amistad. El propio Durero le har\u00EDa un retrato e incluso asisti\u00F3 a la boda de su hija. Fue amigo tambi\u00E9n de Quintin Massys, que colabora realizando algunas figuras de sus cuadros, como sucede en Las tentaciones de san Antonio Abad (Prado), tal como consta en el inventario de El Escorial de 1574. Su amistad fue tan duradera, que su hijo Cornelis fue disc\u00EDpulo de Patinir, llegando incluso a ser el tutor de las dos hijas habidas con su primera mujer Francisca Buyts, hija de pintor. En 1521 contrae nuevo matrimonio con Jeanne Nuyts. Aunque se le han atribuido obras de dudosa calidad que no le pertenecen, deja una producci\u00F3n reducida, dada su corta vida. Alcanza gran fama especialmente por sus \u00FAltimas obras, tanto por su maestr\u00EDa de ejecuci\u00F3n como por su creatividad. De ello dan fe los elogios de sus contempor\u00E1neos. Sabemos que Durero en su Libro de viaje le califica como ''buen pintor de paisajes''. En 1540, Felipe de Guevara, amigo y consejero art\u00EDstico de Carlos V y m\u00E1s tarde de Felipe II, en sus Comentarios de la pintura, le cita entre los tres m\u00E1s grandes pintores junto a Rogier van der Weyden y Jan van Eyck. Su pintura tuvo tambi\u00E9n gran inter\u00E9s para el mercado art\u00EDstico. Pensemos que en Amberes, durante el siglo XVI, se trabajaba no por encargo sino para compradores que buscaban la obra terminada. Su estilo desde los comienzos est\u00E1 influido por El Bosco, aunque sin alcanzar la fuerza sat\u00EDrica del gran maestro, y en menor medida por G\u00E9rard David, de quien tomar\u00E1 la perfecta ejecuci\u00F3n y quiz\u00E1 tambi\u00E9n el gusto por el paisaje. Su nombre aparece en dos obras de juventud, San Jer\u00F3nimo (Staatliche Kunsthalle, Karlsruhe) y Huida a Egipto (Koninklijk Museum voor Schone Kunsten, Amberes). La inscripci\u00F3n, sin embargo, en otras tres tablas, el Bautismo de Cristo (Kunsthistorisches Museum, Viena), Paisaje con san Jer\u00F3nimo y Las tentaciones de san Antonio Abad (Prado), quiz\u00E1 pueda deberse a a\u00F1adidos posteriores. El Museo del Prado conserva, procedente del monasterio de El Escorial, uno de los conjuntos m\u00E1s importantes de sus obras, fundamentales para conocer el estilo de este maestro: el San Jer\u00F3nimo, con un bello paisaje en una gama de verdes; El descanso en la Huida a Egipto, con un especial desarrollo de la vida rural; o la magn\u00EDfica Las tentaciones de san Antonio Abad, en cuyas figuras interviene Massys, as\u00ED como el incomparable paisaje de El paso de la laguna Estigia con una espl\u00E9ndida representaci\u00F3n de los Campos El\u00EDseos y del Infierno en donde funde la tradici\u00F3n cl\u00E1sica con el pensamiento religioso medieval.</br>Desarrolla una imaginaci\u00F3n po\u00E9tica que le permite expresar un mundo idealizado o pat\u00E9tico con profundo sentimiento. Todo ello con una t\u00E9cnica perfecta, con un magn\u00EDfico estudio de la luz y las sombras, que en cierta manera anticipa a los grandes maestros holandeses del siglo XVII, con un excelente manejo del color en donde destaca la deliciosa gama de azules y verdes, que infunden novedad y un atractivo especial a sus obras (Piquero L\u00F3pez, M. A. B. en E.M.N.P, 2006, tomo V, pp. 1686-1688)."
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.cidoc-crm.org/cidoc-crm#p3_has_note"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "This artist born on the banks of the Meuse River is considered the first Flemish landscape painter. His vast, highly personal landscapes are characterized by large expanses of terrain with high horizons and fantastic outcroppings of pointed rock that combine real and symbolic. His works\u2019 nominal subjects are mere pretexts for the development of landscapes that are the true protagonists. He is thought to have begun his career in Bruges, where he discovered the work of G\u00E9rard David, but like David, he appears on a list of Antwerp-based masters in 1515. There, he met and befriended Albrecht D\u00FCrer, who visited the Netherlands in 1520-1521. D\u00FCrer subsequently painted his portrait and even attended his daughter\u2019s wedding. Patinir was also friends with Quintin Massys, who painted some of the figures in his works. According to the 1574 inventory of El Escorial, that was the case with the Museo del Prado\u2019s ''Temptations of Saint Anthony''. Their friendship was so lasting that Massys\u2019 son, Cornelis, apprenticed with Patinir. Cornelis eventually married Patinir\u2019s daughter, Francisca Buyts, and the elder painter became their tutor. In 1521, Patinir remarried, this time to Jeanne Nuyts. His life was quite short, and he produced relatively few paintings, notwithstanding certain mediocre works erroneously attributed to him. His fame is due primarily to his final paintings, whose masterful technique and creativity were praised by his peers. In his travelogue, D\u00FCrer called him ''a good landscape painter'', and Felipe de Guevara, a friend and artistic assessor to both Charles V and Philip II, mentions him in his ''Commentaries on Painting'' (1540) as one of the three greatest painters, alongside Rogier van der Weyden and Jan van Eyck. His work was also very successful on the art market, especially when we recall that, in 16th-century Antwerp, artists did not work on commission. Instead, they sold finished works to their clients. From the very start, Patinir\u2019s paintings reflect the influence of Hieronymus Bosch, although they lack that master\u2019s satirical edge. He was also influenced by G\u00E9rard David, from whom he drew his perfect execution as well as his taste for landscape. His name appears on two early works\u2014''Saint Jerome'' (Staatliche Kunsthalle, Karlsruhe) and ''The Flight to Egypt'' (Koninklijk Museum voor Schone Kunsten, Antwerp)\u2014but his inscriptions on three other panels\u2014''The Baptism of Christ'' (Kunsthistorisches Museum, Vienna), ''Landscape with Saint Jerome'' and ''The Temptations of Saint Anthony'' (Museo del Prado)\u2014may have been added at a later date. One of the most important collections of his works is a group from the monastery of El Escorial, now at the Museo del Prado. These paintings, which are fundamental for knowledge of his style, include ''Saint Jerome'', with a beautiful landscape in a range of greens; ''Rest on the Flight to Egypt'', with its particular depictions of rural life; and the magnificent ''Temptations of Saint Anthony'', whose figures were painted by Massys; as well as the incomparable landscape of ''Crossing the River Styx'', whose magnificent rendering of the Elysian Fields and the Inferno merges the classical tradition with Medieval religious thought. Patinir\u2019s poetic imagination allowed him to express an idealized world, or one steeped in pathos, with profound sentiments, and always with perfect technique. His magnificent rendering light and shadows foreshadow, sin some aspects, the great Dutch masters of the 17th century; as well does his excellent use of color\u2014especially his delightful range of blues and greens. Together, these traits made his works both innovative and uncommonly attractive (Piquero L\u00F3pez, M. A. B. in: E.M.N.P, 2006, vol. V, pp. 1686-1688)."
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "ca. 1480"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1480"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Dinant (Belgium)"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Dinant (B\u00E9lgica)"
+                }
+            }
+        ]
+    }
+}

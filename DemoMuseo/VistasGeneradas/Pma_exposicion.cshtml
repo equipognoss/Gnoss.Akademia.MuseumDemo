@@ -1,0 +1,132 @@
+@using Pma_exposicionOntology;
+@using Pma_obraOntology;
+@using GnossBase;
+@model ResourceViewModel
+@{
+	ResourceModel FichaDocumento = Model.Resource;
+	CommunityModel Comunidad = Html.GetComunidad();
+	UserIdentityModel IdentidadActual = Html.GetIdentidadActual();
+	Html.AddBodyClass(" E7_Exhibition_ActivityModel ");
+	if (FichaDocumento.ItemLinkedFotoVersion != 0 && !string.IsNullOrEmpty(FichaDocumento.ItemLinked.ToString()) && FichaDocumento.ItemLinked != Guid.Empty)
+	{
+	string urlPersonalizacion = $"{Html.GetBaseUrlContent()}/{Es.Riam.Util.UtilArchivos.ContentOntologias}/Archivos/{FichaDocumento.ItemLinked.ToString().Substring(0, 3)}";
+	Html.GetListaJS().Add($"{urlPersonalizacion}/{FichaDocumento.ItemLinked.ToString()}.js?v= {FichaDocumento.ItemLinkedFotoVersion}");
+	Html.GetListaCSS().Add($"{urlPersonalizacion}/{FichaDocumento.ItemLinked.ToString()}.css?v= {FichaDocumento.ItemLinkedFotoVersion}");
+	}
+	SemanticResourceModel semCmsModel = Model.SemanticFrom;
+	 GnossOCBase.LanguageEnum idiomaUsuario = (GnossOCBase.LanguageEnum)Enum.Parse(typeof(GnossOCBase.LanguageEnum), Html.GetUtilIdiomas().LanguageCode.ToLower());
+	E7_Exhibition_Activity pE7_Exhibition_Activity = new E7_Exhibition_Activity(semCmsModel,idiomaUsuario);
+}
+<div class="row">
+<div class="col01 col col-12 col-lg-9">
+<div typeof="http://museodelprado.es/ontologia/ecidoc.owl#E7_Exhibition_Activity:e7_exhibition_activity">
+<div class="contentGroup contenidoPrincipal">
+<div class="group title">
+</div>
+</div>
+<div class="group content semanticView">
+<div class="group group_info">
+<div class="contentGroup">
+@if(pE7_Exhibition_Activity.Pm_activityArtWork!=null)
+{
+<div>
+	@foreach(E7_Activity_E22_Man_Made_Object prop in pE7_Exhibition_Activity.Pm_activityArtWork)
+	{
+		PintarE7_Activity_E22_Man_Made_Object(prop,idiomaUsuario);
+	}
+</div>
+}
+@if(!string.IsNullOrEmpty(pE7_Exhibition_Activity.Cidoc_p3_has_note))
+{
+<div>
+		<strong>@pE7_Exhibition_Activity.GetLabel(nameof(pE7_Exhibition_Activity.Cidoc_p3_has_note),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE7_Exhibition_Activity.GetPropertyURI(nameof(pE7_Exhibition_Activity.Cidoc_p3_has_note))"> @pE7_Exhibition_Activity.Cidoc_p3_has_note[(int)idiomaUsuario] </p>
+</span>
+</div>
+}
+@if(pE7_Exhibition_Activity.Ecidoc_p4_p79_has_time_span_beginning!=null)
+{
+<div>
+		<strong>@pE7_Exhibition_Activity.GetLabel(nameof(pE7_Exhibition_Activity.Ecidoc_p4_p79_has_time_span_beginning),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE7_Exhibition_Activity.GetPropertyURI(nameof(pE7_Exhibition_Activity.Ecidoc_p4_p79_has_time_span_beginning))"> @pE7_Exhibition_Activity.Ecidoc_p4_p79_has_time_span_beginning </p>
+</span>
+</div>
+}
+@if(!string.IsNullOrEmpty(pE7_Exhibition_Activity.Cidoc_p7_took_place_at))
+{
+<div>
+		<strong>@pE7_Exhibition_Activity.GetLabel(nameof(pE7_Exhibition_Activity.Cidoc_p7_took_place_at),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE7_Exhibition_Activity.GetPropertyURI(nameof(pE7_Exhibition_Activity.Cidoc_p7_took_place_at))"> @pE7_Exhibition_Activity.Cidoc_p7_took_place_at[(int)idiomaUsuario] </p>
+</span>
+</div>
+}
+@if(pE7_Exhibition_Activity.Ecidoc_p4_p80_has_time_span_end!=null)
+{
+<div>
+		<strong>@pE7_Exhibition_Activity.GetLabel(nameof(pE7_Exhibition_Activity.Ecidoc_p4_p80_has_time_span_end),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE7_Exhibition_Activity.GetPropertyURI(nameof(pE7_Exhibition_Activity.Ecidoc_p4_p80_has_time_span_end))"> @pE7_Exhibition_Activity.Ecidoc_p4_p80_has_time_span_end </p>
+</span>
+</div>
+}
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+@functions
+{
+ void PintarE7_Activity_E22_Man_Made_Object(E7_Activity_E22_Man_Made_Object pE7_Activity_E22_Man_Made_Object,GnossOCBase.LanguageEnum idiomaUsuario, Observation pObservation){
+<div typeof="http://museodelprado.es/ontologia/ecidoc.owl#E7_Activity_E22_Man-Made_Object:e7_activity_e22_man_made_object">
+<div class="contentGroup contenidoPrincipal">
+<div class="group title">
+</div>
+</div>
+<div class="group content semanticView">
+<div class="group group_info">
+<div class="contentGroup">
+@if(pE7_Activity_E22_Man_Made_Object.Pm_relatedInternalArtWork!=null)
+{
+<div>
+	PintarE7_Activity_E22_Man_Made_Object(pE7_Activity_E22_Man_Made_Object.Pm_relatedInternalArtWork,idiomaUsuario);
+</div>
+}
+@if(pE7_Activity_E22_Man_Made_Object.Pm_artWorkOrder!=null)
+{
+<div>
+		<strong>@pE7_Activity_E22_Man_Made_Object.GetLabel(nameof(pE7_Activity_E22_Man_Made_Object.Pm_artWorkOrder),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE7_Activity_E22_Man_Made_Object.GetPropertyURI(nameof(pE7_Activity_E22_Man_Made_Object.Pm_artWorkOrder))"> @pE7_Activity_E22_Man_Made_Object.Pm_artWorkOrder </p>
+</span>
+</div>
+}
+</div>
+</div>
+</div>
+
+</div>
+
+}
+}
+@functions
+{
+void PintarE7_Activity_E22_Man_Made_Object(E7_Activity_E22_Man_Made_Object pE7_Activity_E22_Man_Made_Object, GnossOCBase.LanguageEnum idiomaUsuario) {
+
+if(pE7_Activity_E22_Man_Made_Object.Cidoc_p1_is_identified_by!=null)
+{
+<div>
+		<strong>@pE7_Activity_E22_Man_Made_Object.GetLabel(nameof(pE7_Activity_E22_Man_Made_Object.Cidoc_p1_is_identified_by),idiomaUsuario)</strong>
+<span>
+<p property ="@pE7_Activity_E22_Man_Made_Object.GetPropertyURI(nameof(pE7_Activity_E22_Man_Made_Object.Cidoc_p1_is_identified_by))"> @pE7_Activity_E22_Man_Made_Object.Cidoc_p1_is_identified_by </p>
+</span>
+</div>
+}
+}
+}
+}

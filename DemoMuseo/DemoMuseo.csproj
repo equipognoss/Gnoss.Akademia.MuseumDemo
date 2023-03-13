@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="clasesGeneradas\**" />
+    <Compile Remove="VistasGeneradas\**" />
+    <EmbeddedResource Remove="clasesGeneradas\**" />
+    <EmbeddedResource Remove="VistasGeneradas\**" />
+    <None Remove="clasesGeneradas\**" />
+    <None Remove="VistasGeneradas\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GnossApiWrapper.NetCore" Version="6.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="ClasesGeneradas\akademiaprueba.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Data.Entity">
+      <HintPath>..\..\..\..\..\..\..\..\Windows\WinSxS\amd64_system.data.entity_b77a5c561934e089_4.0.15912.0_none_10aee1009f06e996\System.Data.Entity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ConfigOAuth\oAuth_akademiaprueba.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ConfigOAuth\oAuth_demo-gnoss-mayo-2022-1.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ConfigOAuth\oAuth_elprado.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

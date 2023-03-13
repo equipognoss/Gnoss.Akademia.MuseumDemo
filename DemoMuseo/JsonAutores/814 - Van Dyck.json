@@ -1,0 +1,189 @@
+{
+    "head": {
+        "link": [],
+        "vars": ["actor", "p", "valor"]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [{
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/pradomuseum.owl#identifier"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "814"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1641"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p4_death_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1641"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Blackfriars, London"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p100i_E69_p7_death_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Blackfriars, Londres"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Van Dyck, Anthony"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p131_E82_p102_has_title"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Van Dyck, Antonio"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.cidoc-crm.org/cidoc-crm#p3_has_note"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Fue el pintor flamenco m\u00E1s importante despu\u00E9s de Rubens en la primera mitad del siglo XVII, y para el siglo XVIII ya se le consideraba su igual. Naci\u00F3 en Amberes, principal centro mercantil y cultural de los Pa\u00EDses Bajos espa\u00F1oles, y fue disc\u00EDpulo de Hendrik van Balen. Para 1615-1616 era ya un artista independiente y desde principios de 1618 fue maestro pintor en el gremio de San Lucas. Durante estos primeros a\u00F1os de su carrera, Van Dyck se desempe\u00F1\u00F3 como asistente en el estudio de Rubens. Luego de unos meses en Londres durante 1620-1621, Van Dyck se traslad\u00F3 a Italia, donde vivi\u00F3 seis a\u00F1os. Siguiendo el ejemplo de Rubens, sent\u00F3 base en G\u00E9nova y desde all\u00ED viaj\u00F3 a Roma, Florencia, Bolo\u00F1a, Venecia, Mantua y Palermo. Se interes\u00F3 en la obra de Tiziano, el Veron\u00E9s y Tintoretto, y su famoso ''cuaderno italiano'' (British Museum, Londres) est\u00E1 repleto de esbozos de las pinturas que admiraba. Los retratos de importantes personajes y familias de G\u00E9nova que pint\u00F3 durante su permanencia en Italia cimentaron su reputaci\u00F3n como artista de envergadura.</br>Van Dyck regres\u00F3 a Amberes en 1628 ya consumado como pintor de corte. En 1632 fue nombrado retratista de Carlos I de Inglaterra y recibi\u00F3 un t\u00EDtulo nobiliario, am\u00E9n de ingresos sustanciales. Durante una estancia de doce meses en Flandes, de 1634 a 1635, Van Dyck ejecut\u00F3 varios retratos, incluido el del cardenal-infante Fernando de Austria (El Prado, Madrid). Luego de este per\u00EDodo en los Pa\u00EDses Bajos regres\u00F3 a Inglaterra, donde desarroll\u00F3 una modalidad pastoral para representar las poses, la vestimenta y la ambientaci\u00F3n en los retratos de sus distinguidos clientes. Su obra m\u00E1s conocida es el retrato del rey Carlos I en atuendo de caza, ca. 1635 (Louvre, Par\u00EDs). En Inglaterra tambi\u00E9n produjo la Iconograf\u00EDa, una colecci\u00F3n de grabados de pr\u00EDncipes, eruditos y artistas, y plane\u00F3 una serie de tapices destinados a decorar la sala de banquetes de Whitehall, cuyo tema ser\u00EDa la historia de la Orden de la Jarretera. En 1640 Van Dyck contrajo matrimonio con Mary Ruthven, dama de compa\u00F1\u00EDa de la reina. Luego de la muerte de Rubens ese mismo a\u00F1o, se traslad\u00F3 a Amberes y a Bruselas, donde esperaba obtener un nuevo cargo. Al fracasar este plan, regres\u00F3 a Inglaterra, donde muri\u00F3 en su casa de Blackfiars el 9 de diciembre de 1641, apenas ocho d\u00EDas despu\u00E9s del nacimiento de su hija Justiniana (Lipinskien, L. en: ''Del Greco a Goya. Obras maestras del Museo del Prado'', Museo de Arte de Ponce, 2012, pp. 93-94)."
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://www.cidoc-crm.org/cidoc-crm#p3_has_note"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "The most important early-17th-century Flemish painter after Rubens, Van Dyck was considered Rubens\u2019 equal by the 18th century. Born in Antwerp, the Spanish Netherlands\u2019 main mercantile and cultural center, he was a disciple of Hendrik van Balen. By 1615-1616, he was already an independent artist and by 1618 he was a master painter at the Guild of Saint Luke. During those early years of his career, Van Dyck worked as an assistant in Rubens\u2019 studio. Later, after a few months in London in 1620-1621, he moved to Italy, where he spent six years. Following Rubens\u2019 example, he settled in Genoa, traveling from there to Rome, Florence, Bologna, Venice, Mantua and Palermo. He was particularly interested in the work of Titian, Veronese and Tintoretto, and his famous Italian Notebook (British Museum, London) is filled with sketches of the paintings he admired. The portraits of Genoa\u2019s leading figures and families, which he painted while in Italy, established his reputation as a versatile artist.<br />Van Dyck returned to Antwerp in 1628 as an established court painter. In 1632 he was named portrait painter to Charles I of England and received a noble title as well as a substantial income. During a twelve-month stay in Flanders between 1634 and 1635, Van Dyck made several portraits, including a likeness of the Cardinal-Infante Ferdinand of Austria (Museo del Prado, Madrid). He then returned to England, where he developed a pastoral manner of depicting the poses, clothing and settings for portraits of his distinguished clients. His best-known work is a portrait of King Charles I in hunting garb, ca. 1634 (Mus\u00E9e du Louvre, Paris). In England he also produced his Iconography, a collection of engravings of princes, scholars and artists, and he planned a series of tapestries for the decoration of the banquet hall at Whitehall, based on the history of the Order of the Garter. In 1640, Van Dyck married Mary Ruthven, one of the Queen\u2019s ladies-in-waiting. Following Rubens\u2019 death that same year, he moved to Antwerp and Brussels, where he hoped to obtain a new post. When that plan failed, he returned to England, where he died at his home in Blackfriars on December 9, 1641, just eight days after the birth of his daughter, Justiniana (Lipinskien, L. in: ''Del Greco a Goya. Obras maestras del Museo del Prado'', Museo de Arte de Ponce, 2012, pp. 93-94)."
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_date"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1599"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p4_gave_birth_year"
+                },
+                "valor": {
+                    "type": "literal",
+                    "value": "1599"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Amberes"
+                }
+            }, {
+                "actor": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/items/E39_Actor_39568a17-81b5-4d6f-84fa-12db60780812_9dffd02a-e849-4261-844d-8efde84ca0a1"
+                },
+                "p": {
+                    "type": "uri",
+                    "value": "http://museodelprado.es/ontologia/ecidoc.owl#p96_E67_p7_gave_birth_place"
+                },
+                "valor": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Antwerp"
+                }
+            }
+        ]
+    }
+}

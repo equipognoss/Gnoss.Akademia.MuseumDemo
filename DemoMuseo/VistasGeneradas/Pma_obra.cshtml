@@ -1,0 +1,453 @@
+@using Pma_obraOntology;
+@using Pma_multimediaOntology;
+@using Pma_exposicionOntology;
+@using Pma_taxonomyOntology;
+@using Pma_taxonomyOntology;
+@using Pma_autorOntology;
+@using Pma_autorOntology;
+@using Pma_obraOntology;
+@using GnossBase;
+@model ResourceViewModel
+@{
+	ResourceModel FichaDocumento = Model.Resource;
+	CommunityModel Comunidad = Html.GetComunidad();
+	UserIdentityModel IdentidadActual = Html.GetIdentidadActual();
+	Html.AddBodyClass(" E22_Man_Made_ObjectModel ");
+	if (FichaDocumento.ItemLinkedFotoVersion != 0 && !string.IsNullOrEmpty(FichaDocumento.ItemLinked.ToString()) && FichaDocumento.ItemLinked != Guid.Empty)
+	{
+	string urlPersonalizacion = $"{Html.GetBaseUrlContent()}/{Es.Riam.Util.UtilArchivos.ContentOntologias}/Archivos/{FichaDocumento.ItemLinked.ToString().Substring(0, 3)}";
+	Html.GetListaJS().Add($"{urlPersonalizacion}/{FichaDocumento.ItemLinked.ToString()}.js?v= {FichaDocumento.ItemLinkedFotoVersion}");
+	Html.GetListaCSS().Add($"{urlPersonalizacion}/{FichaDocumento.ItemLinked.ToString()}.css?v= {FichaDocumento.ItemLinkedFotoVersion}");
+	}
+	SemanticResourceModel semCmsModel = Model.SemanticFrom;
+	 GnossOCBase.LanguageEnum idiomaUsuario = (GnossOCBase.LanguageEnum)Enum.Parse(typeof(GnossOCBase.LanguageEnum), Html.GetUtilIdiomas().LanguageCode.ToLower());
+	E22_Man_Made_Object pE22_Man_Made_Object = new E22_Man_Made_Object(semCmsModel,idiomaUsuario);
+}
+<div class="row">
+<div class="col01 col col-12 col-lg-9">
+<div typeof="http://www.cidoc-crm.org/cidoc-crm#E22_Man_Made_Object:e22_man_made_object">
+<div class="contentGroup contenidoPrincipal">
+<div class="group title">
+</div>
+</div>
+<div class="group content semanticView">
+<div class="group group_info">
+<div class="contentGroup">
+@if(pE22_Man_Made_Object.Ecidoc_p108i_E12_p126_employed_medium!=null)
+{
+<div>
+	@foreach(MediumPath prop in pE22_Man_Made_Object.Ecidoc_p108i_E12_p126_employed_medium)
+	{
+		PintarMediumPath(prop,idiomaUsuario);
+	}
+</div>
+}
+@if(pE22_Man_Made_Object.Cidoc_p14_carried_out_by!=null)
+{
+<div>
+	@foreach(E22_E39_Man_Made_Object__Actor prop in pE22_Man_Made_Object.Cidoc_p14_carried_out_by)
+	{
+		PintarE22_E39_Man_Made_Object__Actor(prop,idiomaUsuario);
+	}
+</div>
+}
+@if(pE22_Man_Made_Object.Cidoc_p65_shows_visual_item!=null)
+{
+<div>
+	@foreach(E36_Visual_Item prop in pE22_Man_Made_Object.Cidoc_p65_shows_visual_item)
+	{
+		PintarE36_Visual_Item(prop,idiomaUsuario);
+	}
+</div>
+}
+@if(pE22_Man_Made_Object.Cidoc_p70i_is_documented_in!=null)
+{
+<div>
+	@foreach(C1003_Manifestation prop in pE22_Man_Made_Object.Cidoc_p70i_is_documented_in)
+	{
+		PintarC1003_Manifestation(prop,idiomaUsuario);
+	}
+</div>
+}
+@if(pE22_Man_Made_Object.Ecidoc_p108i_E12_p32_used_general_technique!=null)
+{
+<div>
+	@foreach(TechniquePath prop in pE22_Man_Made_Object.Ecidoc_p108i_E12_p32_used_general_technique)
+	{
+		PintarTechniquePath(prop,idiomaUsuario);
+	}
+</div>
+}
+@if(pE22_Man_Made_Object.Cidoc_p130i_features_are_also_found_on!=null)
+{
+<div>
+	@foreach(E22_Related_Man_Made_Object prop in pE22_Man_Made_Object.Cidoc_p130i_features_are_also_found_on)
+	{
+		PintarE22_Related_Man_Made_Object(prop,idiomaUsuario);
+	}
+</div>
+}
+@if(pE22_Man_Made_Object.Pm_i_artwork_multimediaresource!=null)
+{
+<div>
+	@foreach(C1003_Manifestation prop in pE22_Man_Made_Object.Pm_i_artwork_multimediaresource)
+	{
+		PintarC1003_Manifestation(prop,idiomaUsuario);
+	}
+</div>
+}
+@if(pE22_Man_Made_Object.Pm_i_artwork_exhibitionactivity!=null)
+{
+<div>
+	@foreach(E7_Exhibition_Activity prop in pE22_Man_Made_Object.Pm_i_artwork_exhibitionactivity)
+	{
+		PintarE7_Exhibition_Activity(prop,idiomaUsuario);
+	}
+</div>
+}
+@if(!string.IsNullOrEmpty(pE22_Man_Made_Object.Cidoc_p3_has_note))
+{
+<div>
+		<strong>@pE22_Man_Made_Object.GetLabel(nameof(pE22_Man_Made_Object.Cidoc_p3_has_note),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE22_Man_Made_Object.GetPropertyURI(nameof(pE22_Man_Made_Object.Cidoc_p3_has_note))"> @pE22_Man_Made_Object.Cidoc_p3_has_note[(int)idiomaUsuario] </p>
+</span>
+</div>
+}
+@if(!string.IsNullOrEmpty(pE22_Man_Made_Object.Cidoc_p1_is_identified_by))
+{
+<div>
+		<strong>@pE22_Man_Made_Object.GetLabel(nameof(pE22_Man_Made_Object.Cidoc_p1_is_identified_by),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE22_Man_Made_Object.GetPropertyURI(nameof(pE22_Man_Made_Object.Cidoc_p1_is_identified_by))"> @pE22_Man_Made_Object.Cidoc_p1_is_identified_by[(int)idiomaUsuario] </p>
+</span>
+</div>
+}
+@if(!string.IsNullOrEmpty(pE22_Man_Made_Object.Ecidoc_p102_E35_p3_has_title))
+{
+<div>
+		<strong>@pE22_Man_Made_Object.GetLabel(nameof(pE22_Man_Made_Object.Ecidoc_p102_E35_p3_has_title),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE22_Man_Made_Object.GetPropertyURI(nameof(pE22_Man_Made_Object.Ecidoc_p102_E35_p3_has_title))"> @pE22_Man_Made_Object.Ecidoc_p102_E35_p3_has_title[(int)idiomaUsuario] </p>
+</span>
+</div>
+}
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+@functions
+{
+ void PintarTechniquePath(TechniquePath pTechniquePath,GnossOCBase.LanguageEnum idiomaUsuario, Observation pObservation){
+<div typeof="http://museodelprado.es/ontologia/pradomuseum.owl#TechniquePath:techniquepath">
+<div class="contentGroup contenidoPrincipal">
+<div class="group title">
+</div>
+</div>
+<div class="group content semanticView">
+<div class="group group_info">
+<div class="contentGroup">
+@if(pTechniquePath.Pm_techniqueNode!=null)
+{
+<div>
+	@foreach(Concept prop in pTechniquePath.Pm_techniqueNode)
+	{
+		PintarConcept(prop,idiomaUsuario);
+	}
+</div>
+}
+</div>
+</div>
+</div>
+
+</div>
+
+}
+ void PintarMediumPath(MediumPath pMediumPath,GnossOCBase.LanguageEnum idiomaUsuario, Observation pObservation){
+<div typeof="http://museodelprado.es/ontologia/pradomuseum.owl#MediumPath:mediumpath">
+<div class="contentGroup contenidoPrincipal">
+<div class="group title">
+</div>
+</div>
+<div class="group content semanticView">
+<div class="group group_info">
+<div class="contentGroup">
+@if(pMediumPath.Pm_mediumNode!=null)
+{
+<div>
+	@foreach(Concept prop in pMediumPath.Pm_mediumNode)
+	{
+		PintarConcept(prop,idiomaUsuario);
+	}
+</div>
+}
+</div>
+</div>
+</div>
+
+</div>
+
+}
+ void PintarE39_Authorship(E39_Authorship pE39_Authorship,GnossOCBase.LanguageEnum idiomaUsuario, Observation pObservation){
+<div typeof="http://museodelprado.es/ontologia/ecidoc.owl#E39_Authorship:e39_authorship">
+<div class="contentGroup contenidoPrincipal">
+<div class="group title">
+</div>
+</div>
+<div class="group content semanticView">
+<div class="group group_info">
+<div class="contentGroup">
+@if(pE39_Authorship.Pm_author!=null)
+{
+<div>
+	PintarE39_Actor(pE39_Authorship.Pm_author,idiomaUsuario);
+</div>
+}
+@if(!string.IsNullOrEmpty(pE39_Authorship.Ecidoc_p2_has_type_authorship))
+{
+<div>
+		<strong>@pE39_Authorship.GetLabel(nameof(pE39_Authorship.Ecidoc_p2_has_type_authorship),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE39_Authorship.GetPropertyURI(nameof(pE39_Authorship.Ecidoc_p2_has_type_authorship))"> @pE39_Authorship.Ecidoc_p2_has_type_authorship[(int)idiomaUsuario] </p>
+</span>
+</div>
+}
+</div>
+</div>
+</div>
+
+</div>
+
+}
+ void PintarE22_E39_Man_Made_Object__Actor(E22_E39_Man_Made_Object__Actor pE22_E39_Man_Made_Object__Actor,GnossOCBase.LanguageEnum idiomaUsuario, Observation pObservation){
+<div typeof="http://museodelprado.es/ontologia/ecidoc.owl#E22_E39_Man-Made_Object__Actor:e22_e39_man_made_object__actor">
+<div class="contentGroup contenidoPrincipal">
+<div class="group title">
+</div>
+</div>
+<div class="group content semanticView">
+<div class="group group_info">
+<div class="contentGroup">
+@if(pE22_E39_Man_Made_Object__Actor.Pm_author!=null)
+{
+<div>
+	PintarE39_Actor(pE22_E39_Man_Made_Object__Actor.Pm_author,idiomaUsuario);
+</div>
+}
+@if(pE22_E39_Man_Made_Object__Actor.Pm_authorship!=null)
+{
+<div>
+	PintarE39_Authorship(pE22_E39_Man_Made_Object__Actor.Pm_authorship,idiomaUsuario);
+</div>
+}
+@if(pE22_E39_Man_Made_Object__Actor.Ecidoc_order!=null)
+{
+<div>
+		<strong>@pE22_E39_Man_Made_Object__Actor.GetLabel(nameof(pE22_E39_Man_Made_Object__Actor.Ecidoc_order),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE22_E39_Man_Made_Object__Actor.GetPropertyURI(nameof(pE22_E39_Man_Made_Object__Actor.Ecidoc_order))"> @pE22_E39_Man_Made_Object__Actor.Ecidoc_order </p>
+</span>
+</div>
+}
+@if(!string.IsNullOrEmpty(pE22_E39_Man_Made_Object__Actor.Ecidoc_p2_has_author_type))
+{
+<div>
+		<strong>@pE22_E39_Man_Made_Object__Actor.GetLabel(nameof(pE22_E39_Man_Made_Object__Actor.Ecidoc_p2_has_author_type),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE22_E39_Man_Made_Object__Actor.GetPropertyURI(nameof(pE22_E39_Man_Made_Object__Actor.Ecidoc_p2_has_author_type))"> @pE22_E39_Man_Made_Object__Actor.Ecidoc_p2_has_author_type[(int)idiomaUsuario] </p>
+</span>
+</div>
+}
+</div>
+</div>
+</div>
+
+</div>
+
+}
+ void PintarE22_Related_Man_Made_Object(E22_Related_Man_Made_Object pE22_Related_Man_Made_Object,GnossOCBase.LanguageEnum idiomaUsuario, Observation pObservation){
+<div typeof="http://museodelprado.es/ontologia/ecidoc.owl#E22_Related_Man-Made_Object:e22_related_man_made_object">
+<div class="contentGroup contenidoPrincipal">
+<div class="group title">
+</div>
+</div>
+<div class="group content semanticView">
+<div class="group group_info">
+<div class="contentGroup">
+@if(pE22_Related_Man_Made_Object.Pm_art_work!=null)
+{
+<div>
+	PintarE22_Man_Made_Object(pE22_Related_Man_Made_Object.Pm_art_work,idiomaUsuario);
+</div>
+}
+@if(!string.IsNullOrEmpty(pE22_Related_Man_Made_Object.Pm_relation))
+{
+<div>
+		<strong>@pE22_Related_Man_Made_Object.GetLabel(nameof(pE22_Related_Man_Made_Object.Pm_relation),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE22_Related_Man_Made_Object.GetPropertyURI(nameof(pE22_Related_Man_Made_Object.Pm_relation))"> @pE22_Related_Man_Made_Object.Pm_relation[(int)idiomaUsuario] </p>
+</span>
+</div>
+}
+</div>
+</div>
+</div>
+
+</div>
+
+}
+ void PintarC1003_Manifestation(C1003_Manifestation pC1003_Manifestation,GnossOCBase.LanguageEnum idiomaUsuario, Observation pObservation){
+<div typeof="http://museodelprado.es/ontologia/efrbrer.owl#C1003_Manifestation:c1003_manifestation">
+<div class="contentGroup contenidoPrincipal">
+<div class="group title">
+</div>
+</div>
+<div class="group content semanticView">
+<div class="group group_info">
+<div class="contentGroup">
+@if(!string.IsNullOrEmpty(pC1003_Manifestation.Efrbrer_P3055_has_date_of_publication_or_distribution))
+{
+<div>
+		<strong>@pC1003_Manifestation.GetLabel(nameof(pC1003_Manifestation.Efrbrer_P3055_has_date_of_publication_or_distribution),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pC1003_Manifestation.GetPropertyURI(nameof(pC1003_Manifestation.Efrbrer_P3055_has_date_of_publication_or_distribution))"> @pC1003_Manifestation.Efrbrer_P3055_has_date_of_publication_or_distribution[(int)idiomaUsuario] </p>
+</span>
+</div>
+}
+@if(!string.IsNullOrEmpty(pC1003_Manifestation.Efrbrer_p3020_has_title_of_the_manifestation))
+{
+<div>
+		<strong>@pC1003_Manifestation.GetLabel(nameof(pC1003_Manifestation.Efrbrer_p3020_has_title_of_the_manifestation),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pC1003_Manifestation.GetPropertyURI(nameof(pC1003_Manifestation.Efrbrer_p3020_has_title_of_the_manifestation))"> @pC1003_Manifestation.Efrbrer_p3020_has_title_of_the_manifestation[(int)idiomaUsuario] </p>
+</span>
+</div>
+}
+</div>
+</div>
+</div>
+
+</div>
+
+}
+ void PintarE36_Visual_Item(E36_Visual_Item pE36_Visual_Item,GnossOCBase.LanguageEnum idiomaUsuario, Observation pObservation){
+<div typeof="http://www.cidoc-crm.org/cidoc-crm#E36_Visual_Item:e36_visual_item">
+<div class="contentGroup contenidoPrincipal">
+<div class="group title">
+</div>
+</div>
+<div class="group content semanticView">
+<div class="group group_info">
+<div class="contentGroup">
+@if(!string.IsNullOrEmpty(pE36_Visual_Item.Ecidoc_p1_is_identified_by))
+{
+<div>
+		<strong>@pE36_Visual_Item.GetLabel(nameof(pE36_Visual_Item.Ecidoc_p1_is_identified_by),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE36_Visual_Item.GetPropertyURI(nameof(pE36_Visual_Item.Ecidoc_p1_is_identified_by))"> @pE36_Visual_Item.Ecidoc_p1_is_identified_by[(int)idiomaUsuario] </p>
+</span>
+</div>
+}
+@if(!string.IsNullOrEmpty(pE36_Visual_Item.Ecidoc_p2_has_type))
+{
+<div>
+		<strong>@pE36_Visual_Item.GetLabel(nameof(pE36_Visual_Item.Ecidoc_p2_has_type),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE36_Visual_Item.GetPropertyURI(nameof(pE36_Visual_Item.Ecidoc_p2_has_type))"> @pE36_Visual_Item.Ecidoc_p2_has_type[(int)idiomaUsuario] </p>
+</span>
+</div>
+}
+@if(pE36_Visual_Item.Pm_imageHeight!=null)
+{
+<div>
+		<strong>@pE36_Visual_Item.GetLabel(nameof(pE36_Visual_Item.Pm_imageHeight),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE36_Visual_Item.GetPropertyURI(nameof(pE36_Visual_Item.Pm_imageHeight))"> @pE36_Visual_Item.Pm_imageHeight </p>
+</span>
+</div>
+}
+@if(pE36_Visual_Item.Pm_isMain!=null)
+{
+<div>
+		<strong>@pE36_Visual_Item.GetLabel(nameof(pE36_Visual_Item.Pm_isMain),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE36_Visual_Item.GetPropertyURI(nameof(pE36_Visual_Item.Pm_isMain))"> @pE36_Visual_Item.Pm_isMain </p>
+</span>
+</div>
+}
+@if(pE36_Visual_Item.Pm_imageWidth!=null)
+{
+<div>
+		<strong>@pE36_Visual_Item.GetLabel(nameof(pE36_Visual_Item.Pm_imageWidth),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE36_Visual_Item.GetPropertyURI(nameof(pE36_Visual_Item.Pm_imageWidth))"> @pE36_Visual_Item.Pm_imageWidth </p>
+</span>
+</div>
+}
+@if(!string.IsNullOrEmpty(pE36_Visual_Item.Ecidoc_p3_has_note))
+{
+<div>
+		<strong>@pE36_Visual_Item.GetLabel(nameof(pE36_Visual_Item.Ecidoc_p3_has_note),idiomaUsuario)</strong>
+<span class="values">
+		<p property="@pE36_Visual_Item.GetPropertyURI(nameof(pE36_Visual_Item.Ecidoc_p3_has_note))"> @pE36_Visual_Item.Ecidoc_p3_has_note[(int)idiomaUsuario] </p>
+</span>
+</div>
+}
+</div>
+</div>
+</div>
+
+</div>
+
+}
+}
+@functions
+{
+void PintarC1003_Manifestation(C1003_Manifestation pC1003_Manifestation, GnossOCBase.LanguageEnum idiomaUsuario) {
+
+if(pC1003_Manifestation.Efrbrer_p3020_has_title_of_the_manifestation!=null)
+{
+<div>
+		<strong>@pC1003_Manifestation.GetLabel(nameof(pC1003_Manifestation.Efrbrer_p3020_has_title_of_the_manifestation),idiomaUsuario)</strong>
+<span>
+<p property ="@pC1003_Manifestation.GetPropertyURI(nameof(pC1003_Manifestation.Efrbrer_p3020_has_title_of_the_manifestation))"> @pC1003_Manifestation.Efrbrer_p3020_has_title_of_the_manifestation </p>
+</span>
+</div>
+}
+}
+void PintarE7_Exhibition_Activity(E7_Exhibition_Activity pE7_Exhibition_Activity, GnossOCBase.LanguageEnum idiomaUsuario) {
+
+if(pE7_Exhibition_Activity.Cidoc_p3_has_note!=null)
+{
+<div>
+		<strong>@pE7_Exhibition_Activity.GetLabel(nameof(pE7_Exhibition_Activity.Cidoc_p3_has_note),idiomaUsuario)</strong>
+<span>
+<p property ="@pE7_Exhibition_Activity.GetPropertyURI(nameof(pE7_Exhibition_Activity.Cidoc_p3_has_note))"> @pE7_Exhibition_Activity.Cidoc_p3_has_note </p>
+</span>
+</div>
+}
+}
+void PintarConcept(Concept pConcept, GnossOCBase.LanguageEnum idiomaUsuario) {
+
+}
+void PintarE39_Actor(E39_Actor pE39_Actor, GnossOCBase.LanguageEnum idiomaUsuario) {
+
+}
+void PintarE22_Man_Made_Object(E22_Man_Made_Object pE22_Man_Made_Object, GnossOCBase.LanguageEnum idiomaUsuario) {
+
+if(pE22_Man_Made_Object.Cidoc_p1_is_identified_by!=null)
+{
+<div>
+		<strong>@pE22_Man_Made_Object.GetLabel(nameof(pE22_Man_Made_Object.Cidoc_p1_is_identified_by),idiomaUsuario)</strong>
+<span>
+<p property ="@pE22_Man_Made_Object.GetPropertyURI(nameof(pE22_Man_Made_Object.Cidoc_p1_is_identified_by))"> @pE22_Man_Made_Object.Cidoc_p1_is_identified_by </p>
+</span>
+</div>
+}
+}
+}
+}
