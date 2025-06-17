@@ -348,3 +348,6 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+DemoMuseo/ConfigOAuth/oAuth_akademiaprueba.config
+DemoMuseo/ConfigOAuth/oAuth_demo-gnoss-mayo-2022-1.config
+DemoMuseo/ConfigOAuth/oAuth_elprado.config
